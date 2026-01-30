@@ -1,41 +1,41 @@
-<html lang="he" dir="rtl"><head>
+<html dir="rtl" lang="he"><head>
 
 <script class="injected-ffc2e83d85">
-(function(){'use strict';function l(a){var c=0;return function(){return c<a.length?{done:!1,value:a[c++]}:{done:!0}}}function r(a){var c=typeof Symbol!="undefined"&&Symbol.iterator&&a[Symbol.iterator];if(c)return c.call(a);if(typeof a.length=="number")return{next:l(a)};throw Error(String(a)+" is not an iterable or ArrayLike");}var t=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,c,g){if(a==Array.prototype||a==Object.prototype)return a;a[c]=g.value;return a};
-function u(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var c=0;c<a.length;++c){var g=a[c];if(g&&g.Math==Math)return g}throw Error("Cannot find global object");}var v=u(this);function x(a,c){if(c)a:{var g=v;a=a.split(".");for(var h=0;h<a.length-1;h++){var m=a[h];if(!(m in g))break a;g=g[m]}a=a[a.length-1];h=g[a];c=c(h);c!=h&&c!=null&&t(g,a,{configurable:!0,writable:!0,value:c})}}
-function y(a){if(!(a instanceof Object))throw new TypeError("Iterator result "+a+" is not an object");}function z(){this.o=!1;this.j=null;this.u=void 0;this.g=1;this.i=this.l=0;this.C=this.h=null}function A(a){if(a.o)throw new TypeError("Generator is already running");a.o=!0}z.prototype.v=function(a){this.u=a};function B(a,c){a.h={K:c,L:!0};a.g=a.l||a.i}z.prototype.N=function(){return this.g};z.prototype.getNextAddress=z.prototype.N;z.prototype.O=function(){return this.u};
-z.prototype.getYieldResult=z.prototype.O;z.prototype.return=function(a){this.h={return:a};this.g=this.i};z.prototype["return"]=z.prototype.return;z.prototype.P=function(a){this.h={B:a};this.g=this.i};z.prototype.jumpThroughFinallyBlocks=z.prototype.P;z.prototype.A=function(a,c){this.g=c;return{value:a}};z.prototype.yield=z.prototype.A;z.prototype.T=function(a,c){a=r(a);var g=a.next();y(g);if(g.done)this.u=g.value,this.g=c;else return this.j=a,this.A(g.value,c)};z.prototype.yieldAll=z.prototype.T;
-z.prototype.B=function(a){this.g=a};z.prototype.jumpTo=z.prototype.B;z.prototype.F=function(){this.g=0};z.prototype.jumpToEnd=z.prototype.F;z.prototype.H=function(a,c){this.l=a;c!=void 0&&(this.i=c)};z.prototype.setCatchFinallyBlocks=z.prototype.H;z.prototype.S=function(a){this.l=0;this.i=a||0};z.prototype.setFinallyBlock=z.prototype.S;z.prototype.G=function(a,c){this.g=a;this.l=c||0};z.prototype.leaveTryBlock=z.prototype.G;z.prototype.D=function(a){this.l=a||0;a=this.h.K;this.h=null;return a};
-z.prototype.enterCatchBlock=z.prototype.D;z.prototype.J=function(a,c,g){g?this.C[g]=this.h:this.C=[this.h];this.l=a||0;this.i=c||0};z.prototype.enterFinallyBlock=z.prototype.J;z.prototype.R=function(a,c){c=this.C.splice(c||0)[0];(c=this.h=this.h||c)?c.L?this.g=this.l||this.i:c.B!=void 0&&this.i<c.B?(this.g=c.B,this.h=null):this.g=this.i:this.g=a};z.prototype.leaveFinallyBlock=z.prototype.R;z.prototype.M=function(a){return new C(a)};z.prototype.forIn=z.prototype.M;
+(function(){'use strict';function m(a){var c=0;return function(){return c<a.length?{done:!1,value:a[c++]}:{done:!0}}}function r(a){var c=typeof Symbol!="undefined"&&Symbol.iterator&&a[Symbol.iterator];if(c)return c.call(a);if(typeof a.length=="number")return{next:m(a)};throw Error(String(a)+" is not an iterable or ArrayLike");}var t=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,c,g){if(a==Array.prototype||a==Object.prototype)return a;a[c]=g.value;return a};
+function u(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var c=0;c<a.length;++c){var g=a[c];if(g&&g.Math==Math)return g}throw Error("Cannot find global object");}var v=u(this);function x(a,c){if(c)a:{var g=v;a=a.split(".");for(var h=0;h<a.length-1;h++){var l=a[h];if(!(l in g))break a;g=g[l]}a=a[a.length-1];h=g[a];c=c(h);c!=h&&c!=null&&t(g,a,{configurable:!0,writable:!0,value:c})}}
+function y(a){if(!(a instanceof Object))throw new TypeError("Iterator result "+a+" is not an object");}function z(){this.o=!1;this.j=null;this.u=void 0;this.g=1;this.i=this.l=0;this.C=this.h=null}function A(a){if(a.o)throw new TypeError("Generator is already running");a.o=!0}z.prototype.v=function(a){this.u=a};function B(a,c){a.h={K:c,L:!0};a.g=a.l||a.i}z.prototype.getNextAddressJsc=function(){return this.g};z.prototype.getYieldResultJsc=function(){return this.u};
+z.prototype.return=function(a){this.h={return:a};this.g=this.i};z.prototype["return"]=z.prototype.return;z.prototype.N=function(a){this.h={B:a};this.g=this.i};z.prototype.jumpThroughFinallyBlocks=z.prototype.N;z.prototype.A=function(a,c){this.g=c;return{value:a}};z.prototype.yield=z.prototype.A;z.prototype.R=function(a,c){a=r(a);var g=a.next();y(g);if(g.done)this.u=g.value,this.g=c;else return this.j=a,this.A(g.value,c)};z.prototype.yieldAll=z.prototype.R;z.prototype.B=function(a){this.g=a};
+z.prototype.jumpTo=z.prototype.B;z.prototype.F=function(){this.g=0};z.prototype.jumpToEnd=z.prototype.F;z.prototype.H=function(a,c){this.l=a;c!=void 0&&(this.i=c)};z.prototype.setCatchFinallyBlocks=z.prototype.H;z.prototype.P=function(a){this.l=0;this.i=a||0};z.prototype.setFinallyBlock=z.prototype.P;z.prototype.G=function(a,c){this.g=a;this.l=c||0};z.prototype.leaveTryBlock=z.prototype.G;z.prototype.D=function(a){this.l=a||0;a=this.h.K;this.h=null;return a};z.prototype.enterCatchBlock=z.prototype.D;
+z.prototype.J=function(a,c,g){g?this.C[g]=this.h:this.C=[this.h];this.l=a||0;this.i=c||0};z.prototype.enterFinallyBlock=z.prototype.J;z.prototype.O=function(a,c){c=this.C.splice(c||0)[0];(c=this.h=this.h||c)?c.L?this.g=this.l||this.i:c.B!=void 0&&this.i<c.B?(this.g=c.B,this.h=null):this.g=this.i:this.g=a};z.prototype.leaveFinallyBlock=z.prototype.O;z.prototype.M=function(a){return new C(a)};z.prototype.forIn=z.prototype.M;
 function C(a){this.i=a;this.g=[];for(var c in a)this.g.push(c);this.g.reverse()}C.prototype.h=function(){for(;this.g.length>0;){var a=this.g.pop();if(a in this.i)return a}return null};C.prototype.getNext=C.prototype.h;function F(a){this.g=new z;this.h=a}function G(a,c){A(a.g);var g=a.g.j;if(g)return H(a,"return"in g?g["return"]:function(h){return{value:h,done:!0}},c,a.g.return);a.g.return(c);return I(a)}
-function H(a,c,g,h){try{var m=c.call(a.g.j,g);y(m);if(!m.done)return a.g.o=!1,m;var n=m.value}catch(f){return a.g.j=null,B(a.g,f),I(a)}a.g.j=null;h.call(a.g,n);return I(a)}function I(a){for(;a.g.g;)try{var c=a.h(a.g);if(c)return a.g.o=!1,{value:c.value,done:!1}}catch(g){a.g.u=void 0,B(a.g,g)}a.g.o=!1;if(a.g.h){c=a.g.h;a.g.h=null;if(c.L)throw c.K;return{value:c.return,done:!0}}return{value:void 0,done:!0}}
-function J(a){this.next=function(c){A(a.g);a.g.j?c=H(a,a.g.j.next,c,a.g.v):(a.g.v(c),c=I(a));return c};this.throw=function(c){A(a.g);a.g.j?c=H(a,a.g.j["throw"],c,a.g.v):(B(a.g,c),c=I(a));return c};this.return=function(c){return G(a,c)};this[Symbol.iterator]=function(){return this}}function K(a){function c(h){return a.next(h)}function g(h){return a.throw(h)}return new Promise(function(h,m){function n(f){f.done?h(f.value):Promise.resolve(f.value).then(c,g).then(n,m)}n(a.next())})}
-x("Symbol",function(a){function c(n){if(this instanceof c)throw new TypeError("Symbol is not a constructor");return new g(h+(n||"")+"_"+m++,n)}function g(n,f){this.g=n;t(this,"description",{configurable:!0,writable:!0,value:f})}if(a)return a;g.prototype.toString=function(){return this.g};var h="jscomp_symbol_"+(Math.random()*1E9>>>0)+"_",m=0;return c});
-x("Symbol.iterator",function(a){if(a)return a;a=Symbol("Symbol.iterator");t(Array.prototype,a,{configurable:!0,writable:!0,value:function(){return L(l(this))}});return a});function L(a){a={next:a};a[Symbol.iterator]=function(){return this};return a}
-x("Promise",function(a){function c(f){this.h=0;this.i=void 0;this.g=[];this.u=!1;var b=this.j();try{f(b.resolve,b.reject)}catch(d){b.reject(d)}}function g(){this.g=null}function h(f){return f instanceof c?f:new c(function(b){b(f)})}if(a)return a;g.prototype.h=function(f){if(this.g==null){this.g=[];var b=this;this.i(function(){b.l()})}this.g.push(f)};var m=v.setTimeout;g.prototype.i=function(f){m(f,0)};g.prototype.l=function(){for(;this.g&&this.g.length;){var f=this.g;this.g=[];for(var b=0;b<f.length;++b){var d=
+function H(a,c,g,h){try{var l=c.call(a.g.j,g);y(l);if(!l.done)return a.g.o=!1,l;var n=l.value}catch(f){return a.g.j=null,B(a.g,f),I(a)}a.g.j=null;h.call(a.g,n);return I(a)}function I(a){for(;a.g.g;)try{var c=a.h(a.g);if(c)return a.g.o=!1,{value:c.value,done:!1}}catch(g){a.g.u=void 0,B(a.g,g)}a.g.o=!1;if(a.g.h){c=a.g.h;a.g.h=null;if(c.L)throw c.K;return{value:c.return,done:!0}}return{value:void 0,done:!0}}
+function J(a){this.next=function(c){A(a.g);a.g.j?c=H(a,a.g.j.next,c,a.g.v):(a.g.v(c),c=I(a));return c};this.throw=function(c){A(a.g);a.g.j?c=H(a,a.g.j["throw"],c,a.g.v):(B(a.g,c),c=I(a));return c};this.return=function(c){return G(a,c)};this[Symbol.iterator]=function(){return this}}function K(a){function c(h){return a.next(h)}function g(h){return a.throw(h)}return new Promise(function(h,l){function n(f){f.done?h(f.value):Promise.resolve(f.value).then(c,g).then(n,l)}n(a.next())})}
+x("Symbol",function(a){function c(n){if(this instanceof c)throw new TypeError("Symbol is not a constructor");return new g(h+(n||"")+"_"+l++,n)}function g(n,f){this.g=n;t(this,"description",{configurable:!0,writable:!0,value:f})}if(a)return a;g.prototype.toString=function(){return this.g};var h="jscomp_symbol_"+(Math.random()*1E9>>>0)+"_",l=0;return c});
+x("Symbol.iterator",function(a){if(a)return a;a=Symbol("Symbol.iterator");t(Array.prototype,a,{configurable:!0,writable:!0,value:function(){return L(m(this))}});return a});function L(a){a={next:a};a[Symbol.iterator]=function(){return this};return a}
+x("Promise",function(a){function c(f){this.h=0;this.i=void 0;this.g=[];this.u=!1;var b=this.j();try{f(b.resolve,b.reject)}catch(d){b.reject(d)}}function g(){this.g=null}function h(f){return f instanceof c?f:new c(function(b){b(f)})}if(a)return a;g.prototype.h=function(f){if(this.g==null){this.g=[];var b=this;this.i(function(){b.l()})}this.g.push(f)};var l=v.setTimeout;g.prototype.i=function(f){l(f,0)};g.prototype.l=function(){for(;this.g&&this.g.length;){var f=this.g;this.g=[];for(var b=0;b<f.length;++b){var d=
 f[b];f[b]=null;try{d()}catch(e){this.j(e)}}}this.g=null};g.prototype.j=function(f){this.i(function(){throw f;})};c.prototype.j=function(){function f(e){return function(k){d||(d=!0,e.call(b,k))}}var b=this,d=!1;return{resolve:f(this.F),reject:f(this.l)}};c.prototype.F=function(f){if(f===this)this.l(new TypeError("A Promise cannot resolve to itself"));else if(f instanceof c)this.H(f);else{a:switch(typeof f){case "object":var b=f!=null;break a;case "function":b=!0;break a;default:b=!1}b?this.D(f):this.o(f)}};
-c.prototype.D=function(f){var b=void 0;try{b=f.then}catch(d){this.l(d);return}typeof b=="function"?this.J(b,f):this.o(f)};c.prototype.l=function(f){this.v(2,f)};c.prototype.o=function(f){this.v(1,f)};c.prototype.v=function(f,b){if(this.h!=0)throw Error("Cannot settle("+f+", "+b+"): Promise already settled in state"+this.h);this.h=f;this.i=b;this.h===2&&this.G();this.C()};c.prototype.G=function(){var f=this;m(function(){if(f.A()){var b=v.console;typeof b!=="undefined"&&b.error(f.i)}},1)};c.prototype.A=
+c.prototype.D=function(f){var b=void 0;try{b=f.then}catch(d){this.l(d);return}typeof b=="function"?this.J(b,f):this.o(f)};c.prototype.l=function(f){this.v(2,f)};c.prototype.o=function(f){this.v(1,f)};c.prototype.v=function(f,b){if(this.h!=0)throw Error("Cannot settle("+f+", "+b+"): Promise already settled in state"+this.h);this.h=f;this.i=b;this.h===2&&this.G();this.C()};c.prototype.G=function(){var f=this;l(function(){if(f.A()){var b=v.console;typeof b!=="undefined"&&b.error(f.i)}},1)};c.prototype.A=
 function(){if(this.u)return!1;var f=v.CustomEvent,b=v.Event,d=v.dispatchEvent;if(typeof d==="undefined")return!0;typeof f==="function"?f=new f("unhandledrejection",{cancelable:!0}):typeof b==="function"?f=new b("unhandledrejection",{cancelable:!0}):(f=v.document.createEvent("CustomEvent"),f.initCustomEvent("unhandledrejection",!1,!0,f));f.promise=this;f.reason=this.i;return d(f)};c.prototype.C=function(){if(this.g!=null){for(var f=0;f<this.g.length;++f)n.h(this.g[f]);this.g=null}};var n=new g;c.prototype.H=
 function(f){var b=this.j();f.I(b.resolve,b.reject)};c.prototype.J=function(f,b){var d=this.j();try{f.call(b,d.resolve,d.reject)}catch(e){d.reject(e)}};c.prototype.then=function(f,b){function d(p,w){return typeof p=="function"?function(D){try{e(p(D))}catch(E){k(E)}}:w}var e,k,q=new c(function(p,w){e=p;k=w});this.I(d(f,e),d(b,k));return q};c.prototype.catch=function(f){return this.then(void 0,f)};c.prototype.I=function(f,b){function d(){switch(e.h){case 1:f(e.i);break;case 2:b(e.i);break;default:throw Error("Unexpected state: "+
 e.h);}}var e=this;this.g==null?n.h(d):this.g.push(d);this.u=!0};c.resolve=h;c.reject=function(f){return new c(function(b,d){d(f)})};c.race=function(f){return new c(function(b,d){for(var e=r(f),k=e.next();!k.done;k=e.next())h(k.value).I(b,d)})};c.all=function(f){var b=r(f),d=b.next();return d.done?h([]):new c(function(e,k){function q(D){return function(E){p[D]=E;w--;w==0&&e(p)}}var p=[],w=0;do p.push(void 0),w++,h(d.value).I(q(p.length-1),k),d=b.next();while(!d.done)})};return c});
-function M(a,c){return Object.prototype.hasOwnProperty.call(a,c)}x("Object.is",function(a){return a?a:function(c,g){return c===g?c!==0||1/c===1/g:c!==c&&g!==g}});x("Array.prototype.includes",function(a){return a?a:function(c,g){var h=this;h instanceof String&&(h=String(h));var m=h.length;g=g||0;for(g<0&&(g=Math.max(g+m,0));g<m;g++){var n=h[g];if(n===c||Object.is(n,c))return!0}return!1}});
+function M(a,c){return Object.prototype.hasOwnProperty.call(a,c)}x("Object.is",function(a){return a?a:function(c,g){return c===g?c!==0||1/c===1/g:c!==c&&g!==g}});x("Array.prototype.includes",function(a){return a?a:function(c,g){var h=this;h instanceof String&&(h=String(h));var l=h.length;g=g||0;for(g<0&&(g=Math.max(g+l,0));g<l;g++){var n=h[g];if(n===c||Object.is(n,c))return!0}return!1}});
 x("String.prototype.includes",function(a){return a?a:function(c,g){if(this==null)throw new TypeError("The 'this' value for String.prototype.includes must not be null or undefined");if(c instanceof RegExp)throw new TypeError("First argument to String.prototype.includes must not be a regular expression");return this.indexOf(c,g||0)!==-1}});
-x("WeakMap",function(a){function c(d){this.g=(b+=Math.random()+1).toString();if(d){d=r(d);for(var e;!(e=d.next()).done;)e=e.value,this.set(e[0],e[1])}}function g(){}function h(d){var e=typeof d;return e==="object"&&d!==null||e==="function"}function m(d){if(!M(d,f)){var e=new g;t(d,f,{value:e})}}function n(d){var e=Object[d];e&&(Object[d]=function(k){if(k instanceof g)return k;Object.isExtensible(k)&&m(k);return e(k)})}if(function(){if(!a||!Object.seal)return!1;try{var d=Object.seal({}),e=Object.seal({}),
-k=new a([[d,2],[e,3]]);if(k.get(d)!=2||k.get(e)!=3)return!1;k.delete(d);k.set(e,4);return!k.has(d)&&k.get(e)==4}catch(q){return!1}}())return a;var f="$jscomp_hidden_"+Math.random();n("freeze");n("preventExtensions");n("seal");var b=0;c.prototype.set=function(d,e){if(!h(d))throw Error("Invalid WeakMap key");m(d);if(!M(d,f))throw Error("WeakMap key fail: "+d);d[f][this.g]=e;return this};c.prototype.get=function(d){return h(d)&&M(d,f)?d[f][this.g]:void 0};c.prototype.has=function(d){return h(d)&&M(d,
+x("WeakMap",function(a){function c(d){this.g=(b+=Math.random()+1).toString();if(d){d=r(d);for(var e;!(e=d.next()).done;)e=e.value,this.set(e[0],e[1])}}function g(){}function h(d){var e=typeof d;return e==="object"&&d!==null||e==="function"}function l(d){if(!M(d,f)){var e=new g;t(d,f,{value:e})}}function n(d){var e=Object[d];e&&(Object[d]=function(k){if(k instanceof g)return k;Object.isExtensible(k)&&l(k);return e(k)})}if(function(){if(!a||!Object.seal)return!1;try{var d=Object.seal({}),e=Object.seal({}),
+k=new a([[d,2],[e,3]]);if(k.get(d)!=2||k.get(e)!=3)return!1;k.delete(d);k.set(e,4);return!k.has(d)&&k.get(e)==4}catch(q){return!1}}())return a;var f="$jscomp_hidden_"+Math.random();n("freeze");n("preventExtensions");n("seal");var b=0;c.prototype.set=function(d,e){if(!h(d))throw Error("Invalid WeakMap key");l(d);if(!M(d,f))throw Error("WeakMap key fail: "+d);d[f][this.g]=e;return this};c.prototype.get=function(d){return h(d)&&M(d,f)?d[f][this.g]:void 0};c.prototype.has=function(d){return h(d)&&M(d,
 f)&&M(d[f],this.g)};c.prototype.delete=function(d){return h(d)&&M(d,f)&&M(d[f],this.g)?delete d[f][this.g]:!1};return c});
 x("Map",function(a){function c(){var b={};return b.m=b.next=b.head=b}function g(b,d){var e=b[1];return L(function(){if(e){for(;e.head!=b[1];)e=e.m;for(;e.next!=e.head;)return e=e.next,{done:!1,value:d(e)};e=null}return{done:!0,value:void 0}})}function h(b,d){var e=d&&typeof d;e=="object"||e=="function"?n.has(d)?e=n.get(d):(e=""+ ++f,n.set(d,e)):e="p_"+d;var k=b[0][e];if(k&&M(b[0],e))for(b=0;b<k.length;b++){var q=k[b];if(d!==d&&q.key!==q.key||d===q.key)return{id:e,list:k,index:b,entry:q}}return{id:e,
-list:k,index:-1,entry:void 0}}function m(b){this[0]={};this[1]=c();this.size=0;if(b){b=r(b);for(var d;!(d=b.next()).done;)d=d.value,this.set(d[0],d[1])}}if(function(){if(!a||typeof a!="function"||!a.prototype.entries||typeof Object.seal!="function")return!1;try{var b=Object.seal({x:4}),d=new a(r([[b,"s"]]));if(d.get(b)!="s"||d.size!=1||d.get({x:4})||d.set({x:4},"t")!=d||d.size!=2)return!1;var e=d.entries(),k=e.next();if(k.done||k.value[0]!=b||k.value[1]!="s")return!1;k=e.next();return k.done||k.value[0].x!=
-4||k.value[1]!="t"||!e.next().done?!1:!0}catch(q){return!1}}())return a;var n=new WeakMap;m.prototype.set=function(b,d){b=b===0?0:b;var e=h(this,b);e.list||(e.list=this[0][e.id]=[]);e.entry?e.entry.value=d:(e.entry={next:this[1],m:this[1].m,head:this[1],key:b,value:d},e.list.push(e.entry),this[1].m.next=e.entry,this[1].m=e.entry,this.size++);return this};m.prototype.delete=function(b){b=h(this,b);return b.entry&&b.list?(b.list.splice(b.index,1),b.list.length||delete this[0][b.id],b.entry.m.next=b.entry.next,
-b.entry.next.m=b.entry.m,b.entry.head=null,this.size--,!0):!1};m.prototype.clear=function(){this[0]={};this[1]=this[1].m=c();this.size=0};m.prototype.has=function(b){return!!h(this,b).entry};m.prototype.get=function(b){return(b=h(this,b).entry)&&b.value};m.prototype.entries=function(){return g(this,function(b){return[b.key,b.value]})};m.prototype.keys=function(){return g(this,function(b){return b.key})};m.prototype.values=function(){return g(this,function(b){return b.value})};m.prototype.forEach=
-function(b,d){for(var e=this.entries(),k;!(k=e.next()).done;)k=k.value,b.call(d,k[1],k[0],this)};m.prototype[Symbol.iterator]=m.prototype.entries;var f=0;return m});
-x("Set",function(a){function c(g){this.g=new Map;if(g){g=r(g);for(var h;!(h=g.next()).done;)this.add(h.value)}this.size=this.g.size}if(function(){if(!a||typeof a!="function"||!a.prototype.entries||typeof Object.seal!="function")return!1;try{var g=Object.seal({x:4}),h=new a(r([g]));if(!h.has(g)||h.size!=1||h.add(g)!=h||h.size!=1||h.add({x:4})!=h||h.size!=2)return!1;var m=h.entries(),n=m.next();if(n.done||n.value[0]!=g||n.value[1]!=g)return!1;n=m.next();return n.done||n.value[0]==g||n.value[0].x!=4||
-n.value[1]!=n.value[0]?!1:m.next().done}catch(f){return!1}}())return a;c.prototype.add=function(g){g=g===0?0:g;this.g.set(g,g);this.size=this.g.size;return this};c.prototype.delete=function(g){g=this.g.delete(g);this.size=this.g.size;return g};c.prototype.clear=function(){this.g.clear();this.size=0};c.prototype.has=function(g){return this.g.has(g)};c.prototype.entries=function(){return this.g.entries()};c.prototype.values=function(){return this.g.values()};c.prototype.keys=c.prototype.values;c.prototype[Symbol.iterator]=
-c.prototype.values;c.prototype.forEach=function(g,h){var m=this;this.g.forEach(function(n){return g.call(h,n,n,m)})};return c});(function(){function a(){return n?Promise.resolve(n):f?f:f=fetch("https://www.gstatic.com/bard-maui/resources/material-design-icon-names.804824289.json").then(function(b){if(!b.ok)throw Error("HTTP error! status: "+b.status+" fetching https://www.gstatic.com/bard-maui/resources/material-design-icon-names.804824289.json");return b.json()}).then(function(b){if(!Array.isArray(b))throw new TypeError("Fetched icon names from https://www.gstatic.com/bard-maui/resources/material-design-icon-names.804824289.json is not an array.");
+list:k,index:-1,entry:void 0}}function l(b){this[0]={};this[1]=c();this.size=0;if(b){b=r(b);for(var d;!(d=b.next()).done;)d=d.value,this.set(d[0],d[1])}}if(function(){if(!a||typeof a!="function"||!a.prototype.entries||typeof Object.seal!="function")return!1;try{var b=Object.seal({x:4}),d=new a(r([[b,"s"]]));if(d.get(b)!="s"||d.size!=1||d.get({x:4})||d.set({x:4},"t")!=d||d.size!=2)return!1;var e=d.entries(),k=e.next();if(k.done||k.value[0]!=b||k.value[1]!="s")return!1;k=e.next();return k.done||k.value[0].x!=
+4||k.value[1]!="t"||!e.next().done?!1:!0}catch(q){return!1}}())return a;var n=new WeakMap;l.prototype.set=function(b,d){b=b===0?0:b;var e=h(this,b);e.list||(e.list=this[0][e.id]=[]);e.entry?e.entry.value=d:(e.entry={next:this[1],m:this[1].m,head:this[1],key:b,value:d},e.list.push(e.entry),this[1].m.next=e.entry,this[1].m=e.entry,this.size++);return this};l.prototype.delete=function(b){b=h(this,b);return b.entry&&b.list?(b.list.splice(b.index,1),b.list.length||delete this[0][b.id],b.entry.m.next=b.entry.next,
+b.entry.next.m=b.entry.m,b.entry.head=null,this.size--,!0):!1};l.prototype.clear=function(){this[0]={};this[1]=this[1].m=c();this.size=0};l.prototype.has=function(b){return!!h(this,b).entry};l.prototype.get=function(b){return(b=h(this,b).entry)&&b.value};l.prototype.entries=function(){return g(this,function(b){return[b.key,b.value]})};l.prototype.keys=function(){return g(this,function(b){return b.key})};l.prototype.values=function(){return g(this,function(b){return b.value})};l.prototype.forEach=
+function(b,d){for(var e=this.entries(),k;!(k=e.next()).done;)k=k.value,b.call(d,k[1],k[0],this)};l.prototype[Symbol.iterator]=l.prototype.entries;var f=0;return l});
+x("Set",function(a){function c(g){this.g=new Map;if(g){g=r(g);for(var h;!(h=g.next()).done;)this.add(h.value)}this.size=this.g.size}if(function(){if(!a||typeof a!="function"||!a.prototype.entries||typeof Object.seal!="function")return!1;try{var g=Object.seal({x:4}),h=new a(r([g]));if(!h.has(g)||h.size!=1||h.add(g)!=h||h.size!=1||h.add({x:4})!=h||h.size!=2)return!1;var l=h.entries(),n=l.next();if(n.done||n.value[0]!=g||n.value[1]!=g)return!1;n=l.next();return n.done||n.value[0]==g||n.value[0].x!=4||
+n.value[1]!=n.value[0]?!1:l.next().done}catch(f){return!1}}())return a;c.prototype.add=function(g){g=g===0?0:g;this.g.set(g,g);this.size=this.g.size;return this};c.prototype.delete=function(g){g=this.g.delete(g);this.size=this.g.size;return g};c.prototype.clear=function(){this.g.clear();this.size=0};c.prototype.has=function(g){return this.g.has(g)};c.prototype.entries=function(){return this.g.entries()};c.prototype.values=function(){return this.g.values()};c.prototype.keys=c.prototype.values;c.prototype[Symbol.iterator]=
+c.prototype.values;c.prototype.forEach=function(g,h){var l=this;this.g.forEach(function(n){return g.call(h,n,n,l)})};return c});(function(){function a(){return n?Promise.resolve(n):f?f:f=fetch("https://www.gstatic.com/bard-maui/resources/material-design-icon-names.804824289.json").then(function(b){if(!b.ok)throw Error("HTTP error! status: "+b.status+" fetching https://www.gstatic.com/bard-maui/resources/material-design-icon-names.804824289.json");return b.json()}).then(function(b){if(!Array.isArray(b))throw new TypeError("Fetched icon names from https://www.gstatic.com/bard-maui/resources/material-design-icon-names.804824289.json is not an array.");
 return n=b}).catch(function(b){console.error("IconChecker: Failed to load valid icon names from https://www.gstatic.com/bard-maui/resources/material-design-icon-names.804824289.json.",b);f=null;throw b;})}function c(b){var d,e,k,q;return K(new J(new F(function(p){switch(p.g){case 1:d=(b.textContent||"").trim();if(!d||b.classList.contains("js-replaced-missing-icon")&&d==="radio_button_unchecked")return p.return();e=window.getComputedStyle(b);if(e.display==="none"||e.visibility==="hidden")return p.return();
 p.H(2);return p.A(a(),4);case 4:k=p.u;p.G(3);break;case 2:return p.D(),console.warn('IconChecker: Skipping check for icon "'+d+'" as valid names could not be loaded.'),p.return();case 3:(q=k.includes(d))?b.classList.contains("js-replaced-missing-icon")&&b.classList.remove("js-replaced-missing-icon"):d==="radio_button_unchecked"&&b.classList.contains("js-replaced-missing-icon")||(b.textContent="radio_button_unchecked",b.classList.add("js-replaced-missing-icon")),p.F()}})))}function g(b){b=b===void 0?
-document.body:b;b.querySelectorAll(m).forEach(function(d){c(d)})}function h(){a().catch(function(){});document.fonts.ready.then(function(){requestAnimationFrame(function(){g(document.body);(new MutationObserver(function(b){var d=new Set;b=r(b);for(var e=b.next();!e.done;e=b.next())if(e=e.value,e.type==="childList")e.addedNodes.forEach(function(q){q.nodeType===Node.ELEMENT_NODE&&(q.matches(m)&&d.add(q),q.querySelectorAll(m).forEach(function(p){d.add(p)}))});else if(e.type==="attributes"&&e.attributeName===
-"class"){var k=e.target;e.target.nodeType===Node.ELEMENT_NODE&&k.matches(m)&&d.add(k)}else e.type==="characterData"&&e.target.parentNode&&(e=e.target.parentNode,e.nodeType===Node.ELEMENT_NODE&&e.matches(m)&&d.add(e));d.size>0&&setTimeout(function(){d.forEach(function(q){c(q)})},500)})).observe(document.body,{childList:!0,subtree:!0,attributes:!0,attributeFilter:["class"],characterData:!0})})}).catch(function(b){console.error("IconChecker: Font loading error. Scanning icons anyway.",b);requestAnimationFrame(function(){g(document.body)})})}
-var m=["material-icons","material-symbols-outlined","material-symbols-rounded","material-symbols-sharp"].map(function(b){return"."+b}).join(","),n=null,f=null;document.readyState==="loading"?document.addEventListener("DOMContentLoaded",function(){h()}):h()})();}).call(this);
+document.body:b;b.querySelectorAll(l).forEach(function(d){c(d)})}function h(){a().catch(function(){});document.fonts.ready.then(function(){requestAnimationFrame(function(){g(document.body);(new MutationObserver(function(b){var d=new Set;b=r(b);for(var e=b.next();!e.done;e=b.next())if(e=e.value,e.type==="childList")e.addedNodes.forEach(function(q){q.nodeType===Node.ELEMENT_NODE&&(q.matches(l)&&d.add(q),q.querySelectorAll(l).forEach(function(p){d.add(p)}))});else if(e.type==="attributes"&&e.attributeName===
+"class"){var k=e.target;e.target.nodeType===Node.ELEMENT_NODE&&k.matches(l)&&d.add(k)}else e.type==="characterData"&&e.target.parentNode&&(e=e.target.parentNode,e.nodeType===Node.ELEMENT_NODE&&e.matches(l)&&d.add(e));d.size>0&&setTimeout(function(){d.forEach(function(q){c(q)})},500)})).observe(document.body,{childList:!0,subtree:!0,attributes:!0,attributeFilter:["class"],characterData:!0})})}).catch(function(b){console.error("IconChecker: Font loading error. Scanning icons anyway.",b);requestAnimationFrame(function(){g(document.body)})})}
+var l=["material-icons","material-symbols-outlined","material-symbols-rounded","material-symbols-sharp"].map(function(b){return"."+b}).join(","),n=null,f=null;document.readyState==="loading"?document.addEventListener("DOMContentLoaded",function(){h()}):h()})();}).call(this);
 
 
 </script>
@@ -44,7 +44,7 @@ var m=["material-icons","material-symbols-outlined","material-symbols-rounded","
 <script class="injected-ffc2e83d85">
 const IMG_SEARCH_REPLACE_MAP = {};
 const IMG_SEARCH_ATTRIBUTION_MAP = {};
-const IMG_GEN_REPLACE_MAP = {"vibrant abstract colorful background for kids game app neon purple and green&aspect=9:16": "https://lh3.googleusercontent.com/gg-dl/AOI_d_-peWRJwDy40exc6fSNmnMEM7qhT6aU1Qy1lBxpdE1SG51gfmQLhdjXWN91cO6a-7wGjwq537u3apdgkyqKx65uFYVlxXaTMif5ITt8EAOoMjIQzcl1iehgVH4VbG1ikqR1wXL7aznXYEj_rCTwDN00CBJwga6d-9vZOkd6PjTErjhq2A", "3d golden trophy cartoon style shining on dark background": "https://lh3.googleusercontent.com/gg-dl/AOI_d_9n8mJfms2ox5TwrIHCmclqcrYa_Sk9qUCosjn3U_bdilk7vlXKJ3l7t55LZfcsoRNF83LeoFyny9kZ_BI3-NtTLhRmwgPq9KNR2aA6fY2nM6vn_LPoGpVDuIS0zAeHsU2VcCOSocdbGQCi7wrCPmwzVMYt7Adfi8Q9rgcizy4PQKjz", "3d golden trophy cartoon style on clean dark background": "https://lh3.googleusercontent.com/gg-dl/AOI_d_8U5lbByDchXdql-ZIH9uETkbjj99sdK3KT0l1L5_dMgMsow91q31rKVi7N06fWR3xHhMOqD7FWRm01_jWDyPC_Cj0riJqkAvwZD33f1FSG_dUbOxXJNv0uCfifL2W5Ji4BullvhAocIhKX3F-wPqaHLqbHtXBbffftU6-or5mkHGRI7Q"};
+const IMG_GEN_REPLACE_MAP = {"vibrant abstract colorful background for kids game app neon purple and green&aspect=9:16": "https://lh3.googleusercontent.com/gg-dl/AOI_d__38E0i-Bw-WvzJFZdcBMOuFJWjviykC2bB0Gt3kD3lVLsdzwoetgklVKCjIYCtHfsMm3ERIpoHaZLc6-cjZP9O4Ta1-AntjDNbyuCKaNXcNKYM8oFZleBfimCJ3ErpmVSYj5fVSnIyiJsWGmcO0AcZSdqQQEMbjrYuzH6BF860vb8J", "3d golden trophy cartoon style on clean dark background": "https://lh3.googleusercontent.com/gg-dl/AOI_d_8TJ-L23WaY4BtGNBfWhvLKmBQ9toB_fbnrw24xC7vytAui5T9M135hN12MXwt9SY3PArrNLrrP7eUy0978GV9KB1eoN0Vo9v97KPA4Kqm_9k9jGk52LNq3UeY8kWt18qN9Z0uQetcW6P7wiw0s2tabYnwpz4l6S_20qE9Ogvtz293qBg"};
 const MAY_HAVE_BACKGROUND_IMAGE = false;
 const IMG_SEARCH_REIMAGINE_PARAM = "1";
 </script>
@@ -56,12 +56,12 @@ function da(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof win
 if(typeof Object.setPrototypeOf=="function")fa=Object.setPrototypeOf;else{var ia;a:{var ja={a:!0},ka={};try{ka.__proto__=ja;ia=ka.a;break a}catch(a){}ia=!1}fa=ia?function(a,b){a.__proto__=b;if(a.__proto__!==b)throw new TypeError(a+" is not extensible");return a}:null}var la=fa;
 function ma(a,b){a.prototype=aa(b.prototype);a.prototype.constructor=a;if(la)la(a,b);else for(var c in b)if(c!="prototype")if(Object.defineProperties){var d=Object.getOwnPropertyDescriptor(b,c);d&&Object.defineProperty(a,c,d)}else a[c]=b[c];a.L=b.prototype}function na(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}}
 function u(a){var b=typeof Symbol!="undefined"&&Symbol.iterator&&a[Symbol.iterator];if(b)return b.call(a);if(typeof a.length=="number")return{next:na(a)};throw Error(String(a)+" is not an iterable or ArrayLike");}function oa(a){return pa(a,a)}function pa(a,b){a.raw=b;Object.freeze&&(Object.freeze(a),Object.freeze(b));return a}function qa(a){if(!(a instanceof Object))throw new TypeError("Iterator result "+a+" is not an object");}
-function v(){this.M=!1;this.G=null;this.D=void 0;this.A=1;this.F=this.I=0;this.R=this.C=null}function ra(a){if(a.M)throw new TypeError("Generator is already running");a.M=!0}v.prototype.O=function(a){this.D=a};function sa(a,b){a.C={sa:b,ua:!0};a.A=a.I||a.F}v.prototype.ea=function(){return this.A};v.prototype.getNextAddress=v.prototype.ea;v.prototype.fa=function(){return this.D};v.prototype.getYieldResult=v.prototype.fa;v.prototype.return=function(a){this.C={return:a};this.A=this.F};
-v.prototype["return"]=v.prototype.return;v.prototype.va=function(a){this.C={K:a};this.A=this.F};v.prototype.jumpThroughFinallyBlocks=v.prototype.va;v.prototype.B=function(a,b){this.A=b;return{value:a}};v.prototype.yield=v.prototype.B;v.prototype.za=function(a,b){a=u(a);var c=a.next();qa(c);if(c.done)this.D=c.value,this.A=b;else return this.G=a,this.B(c.value,b)};v.prototype.yieldAll=v.prototype.za;v.prototype.K=function(a){this.A=a};v.prototype.jumpTo=v.prototype.K;
-v.prototype.H=function(){this.A=0};v.prototype.jumpToEnd=v.prototype.H;v.prototype.T=function(a,b){this.I=a;b!=void 0&&(this.F=b)};v.prototype.setCatchFinallyBlocks=v.prototype.T;v.prototype.xa=function(a){this.I=0;this.F=a||0};v.prototype.setFinallyBlock=v.prototype.xa;v.prototype.S=function(a,b){this.A=a;this.I=b||0};v.prototype.leaveTryBlock=v.prototype.S;v.prototype.P=function(a){this.I=a||0;a=this.C.sa;this.C=null;return a};v.prototype.enterCatchBlock=v.prototype.P;
-v.prototype.X=function(a,b,c){c?this.R[c]=this.C:this.R=[this.C];this.I=a||0;this.F=b||0};v.prototype.enterFinallyBlock=v.prototype.X;v.prototype.wa=function(a,b){b=this.R.splice(b||0)[0];(b=this.C=this.C||b)?b.ua?this.A=this.I||this.F:b.K!=void 0&&this.F<b.K?(this.A=b.K,this.C=null):this.A=this.F:this.A=a};v.prototype.leaveFinallyBlock=v.prototype.wa;v.prototype.da=function(a){return new ua(a)};v.prototype.forIn=v.prototype.da;
-function ua(a){this.C=a;this.A=[];for(var b in a)this.A.push(b);this.A.reverse()}ua.prototype.B=function(){for(;this.A.length>0;){var a=this.A.pop();if(a in this.C)return a}return null};ua.prototype.getNext=ua.prototype.B;function va(a){this.A=new v;this.B=a}function wa(a,b){ra(a.A);var c=a.A.G;if(c)return xa(a,"return"in c?c["return"]:function(d){return{value:d,done:!0}},b,a.A.return);a.A.return(b);return ya(a)}
-function xa(a,b,c,d){try{var e=b.call(a.A.G,c);qa(e);if(!e.done)return a.A.M=!1,e;var h=e.value}catch(f){return a.A.G=null,sa(a.A,f),ya(a)}a.A.G=null;d.call(a.A,h);return ya(a)}function ya(a){for(;a.A.A;)try{var b=a.B(a.A);if(b)return a.A.M=!1,{value:b.value,done:!1}}catch(c){a.A.D=void 0,sa(a.A,c)}a.A.M=!1;if(a.A.C){b=a.A.C;a.A.C=null;if(b.ua)throw b.sa;return{value:b.return,done:!0}}return{value:void 0,done:!0}}
+function v(){this.M=!1;this.G=null;this.D=void 0;this.A=1;this.F=this.I=0;this.R=this.C=null}function ra(a){if(a.M)throw new TypeError("Generator is already running");a.M=!0}v.prototype.O=function(a){this.D=a};function sa(a,b){a.C={sa:b,ua:!0};a.A=a.I||a.F}v.prototype.getNextAddressJsc=function(){return this.A};v.prototype.getYieldResultJsc=function(){return this.D};v.prototype.return=function(a){this.C={return:a};this.A=this.F};v.prototype["return"]=v.prototype.return;
+v.prototype.ea=function(a){this.C={K:a};this.A=this.F};v.prototype.jumpThroughFinallyBlocks=v.prototype.ea;v.prototype.B=function(a,b){this.A=b;return{value:a}};v.prototype.yield=v.prototype.B;v.prototype.wa=function(a,b){a=u(a);var c=a.next();qa(c);if(c.done)this.D=c.value,this.A=b;else return this.G=a,this.B(c.value,b)};v.prototype.yieldAll=v.prototype.wa;v.prototype.K=function(a){this.A=a};v.prototype.jumpTo=v.prototype.K;v.prototype.H=function(){this.A=0};v.prototype.jumpToEnd=v.prototype.H;
+v.prototype.T=function(a,b){this.I=a;b!=void 0&&(this.F=b)};v.prototype.setCatchFinallyBlocks=v.prototype.T;v.prototype.va=function(a){this.I=0;this.F=a||0};v.prototype.setFinallyBlock=v.prototype.va;v.prototype.S=function(a,b){this.A=a;this.I=b||0};v.prototype.leaveTryBlock=v.prototype.S;v.prototype.P=function(a){this.I=a||0;a=this.C.sa;this.C=null;return a};v.prototype.enterCatchBlock=v.prototype.P;v.prototype.X=function(a,b,c){c?this.R[c]=this.C:this.R=[this.C];this.I=a||0;this.F=b||0};
+v.prototype.enterFinallyBlock=v.prototype.X;v.prototype.fa=function(a,b){b=this.R.splice(b||0)[0];(b=this.C=this.C||b)?b.ua?this.A=this.I||this.F:b.K!=void 0&&this.F<b.K?(this.A=b.K,this.C=null):this.A=this.F:this.A=a};v.prototype.leaveFinallyBlock=v.prototype.fa;v.prototype.da=function(a){return new ua(a)};v.prototype.forIn=v.prototype.da;function ua(a){this.C=a;this.A=[];for(var b in a)this.A.push(b);this.A.reverse()}ua.prototype.B=function(){for(;this.A.length>0;){var a=this.A.pop();if(a in this.C)return a}return null};
+ua.prototype.getNext=ua.prototype.B;function va(a){this.A=new v;this.B=a}function wa(a,b){ra(a.A);var c=a.A.G;if(c)return xa(a,"return"in c?c["return"]:function(d){return{value:d,done:!0}},b,a.A.return);a.A.return(b);return ya(a)}function xa(a,b,c,d){try{var e=b.call(a.A.G,c);qa(e);if(!e.done)return a.A.M=!1,e;var h=e.value}catch(f){return a.A.G=null,sa(a.A,f),ya(a)}a.A.G=null;d.call(a.A,h);return ya(a)}
+function ya(a){for(;a.A.A;)try{var b=a.B(a.A);if(b)return a.A.M=!1,{value:b.value,done:!1}}catch(c){a.A.D=void 0,sa(a.A,c)}a.A.M=!1;if(a.A.C){b=a.A.C;a.A.C=null;if(b.ua)throw b.sa;return{value:b.return,done:!0}}return{value:void 0,done:!0}}
 function Aa(a){this.next=function(b){ra(a.A);a.A.G?b=xa(a,a.A.G.next,b,a.A.O):(a.A.O(b),b=ya(a));return b};this.throw=function(b){ra(a.A);a.A.G?b=xa(a,a.A.G["throw"],b,a.A.O):(sa(a.A,b),b=ya(a));return b};this.return=function(b){return wa(a,b)};this[Symbol.iterator]=function(){return this}}function Ba(a){function b(d){return a.next(d)}function c(d){return a.throw(d)}return new Promise(function(d,e){function h(f){f.done?d(f.value):Promise.resolve(f.value).then(b,c).then(h,e)}h(a.next())})}
 function w(a){return Ba(new Aa(new va(a)))}function Ca(){for(var a=Number(this),b=[],c=a;c<arguments.length;c++)b[c-a]=arguments[c];return b}q("globalThis",function(a){return a||ea});
 q("Symbol",function(a){function b(h){if(this instanceof b)throw new TypeError("Symbol is not a constructor");return new c(d+(h||"")+"_"+e++,h)}function c(h,f){this.A=h;ca(this,"description",{configurable:!0,writable:!0,value:f})}if(a)return a;c.prototype.toString=function(){return this.A};var d="jscomp_symbol_"+(Math.random()*1E9>>>0)+"_",e=0;return b});
@@ -92,12 +92,12 @@ function Ga(a,b){a instanceof String&&(a+="");var c=0,d=!1,e={next:function(){if
 q("Number.isNaN",function(a){return a?a:function(b){return typeof b==="number"&&isNaN(b)}});q("Array.prototype.keys",function(a){return a?a:function(){return Ga(this,function(b){return b})}});q("Array.prototype.values",function(a){return a?a:function(){return Ga(this,function(b,c){return c})}});
 q("String.prototype.replaceAll",function(a){return a?a:function(b,c){if(b instanceof RegExp&&!b.global)throw new TypeError("String.prototype.replaceAll called with a non-global RegExp argument.");return b instanceof RegExp?this.replace(b,c):this.replace(new RegExp(String(b).replace(/([-()\[\]{}+?*.$\^|,:#<!\\])/g,"\\$1").replace(/\x08/g,"\\x08"),"g"),c)}});/*
 
- Copyright The Closure Library Authors.
- SPDX-License-Identifier: Apache-2.0
+Copyright The Closure Library Authors.
+SPDX-License-Identifier: Apache-2.0
 */
 var Ja=this||self;function Ka(a,b){a:{var c=["CLOSURE_FLAGS"];for(var d=Ja,e=0;e<c.length;e++)if(d=d[c[e]],d==null){c=null;break a}c=d}a=c&&c[a];return a!=null?a:b}function La(a){var b=typeof a;return b!="object"?b:a?Array.isArray(a)?"array":b:"null"}function Ma(a,b,c){return a.call.apply(a.bind,arguments)}
 function Na(a,b,c){if(!a)throw Error();if(arguments.length>2){var d=Array.prototype.slice.call(arguments,2);return function(){var e=Array.prototype.slice.call(arguments);Array.prototype.unshift.apply(e,d);return a.apply(b,e)}}return function(){return a.apply(b,arguments)}}function x(a,b,c){x=Function.prototype.bind&&Function.prototype.bind.toString().indexOf("native code")!=-1?Ma:Na;return x.apply(null,arguments)}
-function Oa(a,b){function c(){}c.prototype=b.prototype;a.L=b.prototype;a.prototype=new c;a.prototype.constructor=a;a.Ma=function(d,e,h){for(var f=Array(arguments.length-2),g=2;g<arguments.length;g++)f[g-2]=arguments[g];return b.prototype[e].apply(d,f)}};function Pa(a){Ja.setTimeout(function(){throw a;},0)};var Qa=Ka(748402147,!0),Ra=Ka(824656860,Ka(1,!0));function Sa(a,b){a.__closure__error__context__984382||(a.__closure__error__context__984382={});a.__closure__error__context__984382.severity=b};var Ta=void 0;function Ua(a){a=Error(a);Sa(a,"warning");return a};function Va(){return typeof BigInt==="function"};var Wa=typeof Symbol==="function"&&typeof Symbol()==="symbol";function Xa(a,b,c){return typeof Symbol==="function"&&typeof Symbol()==="symbol"?(c===void 0?0:c)&&Symbol.for&&a?Symbol.for(a):a!=null?Symbol(a):Symbol():b}var ab=Xa("jas",void 0,!0),bb=Xa(void 0,"1oa"),cb=Xa(void 0,"0actk"),db=Xa("m_m","Oa",!0);var eb={Aa:{value:0,configurable:!0,writable:!0,enumerable:!1}},fb=Object.defineProperties,y=Wa?ab:"Aa";function gb(a,b){Wa||y in a||fb(a,eb);a[y]|=b}function hb(a,b){Wa||y in a||fb(a,eb);a[y]=b};var ib={};function jb(a,b){return b===void 0?a.A!==kb&&!!(2&(a.J[y]|0)):!!(2&b)&&a.A!==kb}var kb={};function lb(a){a.Na=!0;return a};var mb=lb(function(a){return typeof a==="number"}),nb=lb(function(a){return typeof a==="string"}),ob=lb(function(a){return typeof a==="boolean"});var pb=typeof Ja.BigInt==="function"&&typeof Ja.BigInt(0)==="bigint";function z(a){var b=a;if(nb(b)){if(!/^\s*(?:-?[1-9]\d*|0)?\s*$/.test(b))throw Error(String(b));}else if(mb(b)&&!Number.isSafeInteger(b))throw Error(String(b));return pb?BigInt(a):a=ob(a)?a?"1":"0":nb(a)?a.trim()||"0":String(a)}var xb=lb(function(a){return pb?a>=qb&&a<=rb:a[0]==="-"?sb(a,tb):sb(a,ub)}),tb=Number.MIN_SAFE_INTEGER.toString(),qb=pb?BigInt(Number.MIN_SAFE_INTEGER):void 0,ub=Number.MAX_SAFE_INTEGER.toString(),rb=pb?BigInt(Number.MAX_SAFE_INTEGER):void 0;
+function Oa(a,b){function c(){}c.prototype=b.prototype;a.L=b.prototype;a.prototype=new c;a.prototype.constructor=a;a.Ka=function(d,e,h){for(var f=Array(arguments.length-2),g=2;g<arguments.length;g++)f[g-2]=arguments[g];return b.prototype[e].apply(d,f)}};function Pa(a){Ja.setTimeout(function(){throw a;},0)};var Qa=Ka(748402147,!0),Ra=Ka(824656860,Ka(1,!0));function Sa(a,b){a.__closure__error__context__984382||(a.__closure__error__context__984382={});a.__closure__error__context__984382.severity=b};var Ta=void 0;function Ua(a){a=Error(a);Sa(a,"warning");return a};function Va(){return typeof BigInt==="function"};var Wa=typeof Symbol==="function"&&typeof Symbol()==="symbol";function Xa(a,b,c){return typeof Symbol==="function"&&typeof Symbol()==="symbol"?(c===void 0?0:c)&&Symbol.for&&a?Symbol.for(a):a!=null?Symbol(a):Symbol():b}var ab=Xa("jas",void 0,!0),bb=Xa(void 0,"1oa"),cb=Xa(void 0,"0actk"),db=Xa("m_m","Ma",!0);var eb={xa:{value:0,configurable:!0,writable:!0,enumerable:!1}},fb=Object.defineProperties,y=Wa?ab:"xa";function gb(a,b){Wa||y in a||fb(a,eb);a[y]|=b}function hb(a,b){Wa||y in a||fb(a,eb);a[y]=b};var ib={};function jb(a,b){return b===void 0?a.A!==kb&&!!(2&(a.J[y]|0)):!!(2&b)&&a.A!==kb}var kb={};function lb(a){a.La=!0;return a};var mb=lb(function(a){return typeof a==="number"}),nb=lb(function(a){return typeof a==="string"}),ob=lb(function(a){return typeof a==="boolean"});var pb=typeof Ja.BigInt==="function"&&typeof Ja.BigInt(0)==="bigint";function z(a){var b=a;if(nb(b)){if(!/^\s*(?:-?[1-9]\d*|0)?\s*$/.test(b))throw Error(String(b));}else if(mb(b)&&!Number.isSafeInteger(b))throw Error(String(b));return pb?BigInt(a):a=ob(a)?a?"1":"0":nb(a)?a.trim()||"0":String(a)}var xb=lb(function(a){return pb?a>=qb&&a<=rb:a[0]==="-"?sb(a,tb):sb(a,ub)}),tb=Number.MIN_SAFE_INTEGER.toString(),qb=pb?BigInt(Number.MIN_SAFE_INTEGER):void 0,ub=Number.MAX_SAFE_INTEGER.toString(),rb=pb?BigInt(Number.MAX_SAFE_INTEGER):void 0;
 function sb(a,b){if(a.length>b.length)return!1;if(a.length<b.length||a===b)return!0;for(var c=0;c<a.length;c++){var d=a[c],e=b[c];if(d>e)return!1;if(d<e)return!0}};var D=0,F=0;function yb(a){var b=a>>>0;D=b;F=(a-b)/4294967296>>>0}function zb(a){if(a<0){yb(-a);var b=u(Ab(D,F));a=b.next().value;b=b.next().value;D=a>>>0;F=b>>>0}else yb(a)}function Bb(a,b){var c=b*4294967296+(a>>>0);return Number.isSafeInteger(c)?c:Cb(a,b)}
 function Cb(a,b){b>>>=0;a>>>=0;if(b<=2097151)var c=""+(4294967296*b+a);else Va()?c=""+(BigInt(b)<<BigInt(32)|BigInt(a)):(c=(a>>>24|b<<8)&16777215,b=b>>16&65535,a=(a&16777215)+c*6777216+b*6710656,c+=b*8147497,b*=2,a>=1E7&&(c+=a/1E7>>>0,a%=1E7),c>=1E7&&(b+=c/1E7>>>0,c%=1E7),c=b+Db(c)+Db(a));return c}function Db(a){a=String(a);return"0000000".slice(a.length)+a}
 function Eb(){var a=D,b=F;b&2147483648?Va()?a=""+(BigInt(b|0)<<BigInt(32)|BigInt(a>>>0)):(b=u(Ab(a,b)),a=b.next().value,b=b.next().value,a="-"+Cb(a,b)):a=Cb(a,b);return a}
@@ -118,16 +118,16 @@ function Mc(a,b,c){var d=a.J,e=d[y]|0;b=Lc(d,e,b,c);if(b==null)return b;e=d[y]|0
 function G(a,b){var c=c===void 0?!1:c;var d;return(d=Nb(Ec(a,b)))!=null?d:c}function K(a,b){return Nb(Ec(a,b,void 0,Dc))}function L(a,b){return Qb(Ec(a,b,void 0,Dc))}function Qc(a,b){return Ra?Ec(a,b,void 0,Dc,mc):mc(Ec(a,b,void 0,Dc))}function Rc(a,b){return Ec(a,b,void 0,Dc,Mb)}function Q(a,b){return Pc(a,b,Dc)}function R(a,b,c){if(c!=null&&typeof c!=="boolean")throw Error("Expected boolean but got "+La(c)+": "+c);Gc(a,b,c)}
 function T(a,b,c){if(c!=null){if(typeof c!=="number")throw Ua("int32");if(!Kb(c))throw Ua("int32");c|=0}Gc(a,b,c)}function Sc(a,b,c){if(c!=null&&typeof c!=="number")throw Error("Value of float/double field must be a number, found "+typeof c+": "+c);Gc(a,b,c)}function Tc(a,b,c){if(c!=null&&typeof c!=="string")throw Error();Gc(a,b,c)};function Uc(a,b,c){this.J=uc(a,b,c,2048)}Uc.prototype.toJSON=function(){return tc(this)};Uc.prototype[db]=ib;Uc.prototype.toString=function(){return this.J.toString()};function Vc(a){this.J=uc(a,void 0,void 0,2048)}ma(Vc,Uc);function Wc(a){this.J=uc(a,void 0,void 0,2048)}ma(Wc,Uc);function Xc(a){this.J=uc(a,void 0,void 0,2048)}ma(Xc,Uc);function Yc(a){this.J=uc(a,void 0,void 0,2048)}ma(Yc,Uc);function Zc(a){this.J=uc(a,void 0,void 0,2048)}ma(Zc,Uc);var Kc=[1,2,3,4];/*
 
- Copyright Google LLC
- SPDX-License-Identifier: Apache-2.0
+Copyright Google LLC
+SPDX-License-Identifier: Apache-2.0
 */
 var $c=globalThis.trustedTypes,ad;function bd(){var a=null;if(!$c)return a;try{var b=function(c){return c};a=$c.createPolicy("goog#html",{createHTML:b,createScript:b,createScriptURL:b})}catch(c){}return a};function cd(a){this.A=a}cd.prototype.toString=function(){return this.A+""};function dd(a){var b;ad===void 0&&(ad=bd());a=(b=ad)?b.createScriptURL(a):a;return new cd(a)};function ed(a){this.B=a}ed.prototype.toString=function(){return this.B};function fd(a){var b=window;if(typeof MediaSource!=="undefined"&&a instanceof MediaSource||typeof b.ManagedMediaSource!=="undefined"&&a instanceof b.ManagedMediaSource)return a=URL.createObjectURL(a),new ed(a);b=a.type;b.toLowerCase()==="application/octet-stream"?b=!0:(b=b.match(/^([^;]+)(?:;\w+=(?:\w+|"[\w;,= ]+"))*$/i),b=(b==null?void 0:b.length)===2&&(/^image\/(?:bmp|gif|jpeg|jpg|png|tiff|webp|x-icon|heic|heif|avif|x-ms-bmp)$/i.test(b[1])||/^video\/(?:3gpp|avi|mpeg|mpg|mp4|ogg|webm|x-flv|x-matroska|quicktime|x-ms-wmv)$/i.test(b[1])||
 /^audio\/(?:3gpp2|3gpp|aac|amr|L16|midi|mp3|mp4|mpeg|oga|ogg|opus|x-m4a|x-matroska|x-wav|wav|webm)$/i.test(b[1])||/^font\/[\w-]+$/i.test(b[1])));if(!b)throw Error("");a=URL.createObjectURL(a);return new ed(a)}var gd=/^\s*(?!javascript:)(?:[\w+.-]+:|[^:/?#]*(?:[/?#]|$))/i;function hd(a){if(a instanceof ed)if(a instanceof ed)a=a.B;else throw Error("");else a=gd.test(a)?a:void 0;return a};var id="alternate author bookmark canonical cite help icon license modulepreload next prefetch dns-prefetch prerender preconnect preload prev search subresource".split(" ");function jd(a,b){if(b instanceof cd){if(b instanceof cd)b=b.A;else throw Error("");a.href=b.toString();a.rel="stylesheet"}else{if(id.indexOf("stylesheet")===-1)throw Error('TrustedResourceUrl href attribute required with rel="stylesheet"');b=hd(b);b!==void 0&&(a.href=b,a.rel="stylesheet")}};function kd(){window.addEventListener("click",function(a){for(var b=document.elementsFromPoint(a.clientX,a.clientY).filter(function(e){return e instanceof HTMLButtonElement&&e.classList.contains("dyn-img-attribution-button-di-script")?!ld(e):!1}),c=u(b),d=c.next();!d.done;d=c.next())if(d.value===a.target)return;b.length>0&&(b.length>1&&console.debug("More than 1 attribution button found covered, only triggering the first one."),a=b[0],console.debug("Triggering covered attribution button"),a.click())})}
 function md(a,b){b.addEventListener("click",function(c){c.stopPropagation();c=new Zc;var d=new Yc,e=a;e=Nc(e);Gc(d,1,e);e&&!jb(e)&&Cc(d.J);d=Nc(d);a:{Bc(c);e=c.J;var h=e[y]|0;if(d==null){var f=Ic(e);if(Jc(f,e,h)===2)f.set(Kc,0);else break a}else{f=Ic(e);var g=Jc(f,e,h);g!==2&&(g&&(h=Hc(e,h,g)),f.set(Kc,2))}Hc(e,h,2,d)}d&&!jb(d)&&Cc(c.J);c=JSON.stringify(tc(c));window.parent.postMessage({source:"__geminigo_renderer",payload:c},"*")})}
 function ld(a){a=getComputedStyle(a);return a.display==="none"||a.visibility==="hidden"||a.opacity==="0"};function nd(a,b,c){var d=MAY_HAVE_BACKGROUND_IMAGE,e=new MutationObserver(function(h,f){var g,k,m;return w(function(r){if(r.A==1){if(a())return console.debug("Too many mutations, stopping mutation observer."),f.disconnect(),r.return();g=u(h);k=g.next()}if(r.A!=3){if(k.done)return r.K(0);m=k.value;return m.type==="childList"&&m.addedNodes.length>0?(m.addedNodes.forEach(function(C){var A;return w(function(E){if(E.A==1){if(C.nodeType!==Node.ELEMENT_NODE)return E.K(0);A=C;return d?E.B(c(A),3):E.K(3)}return A.tagName!==
 "IMG"?(A.querySelectorAll&&(d&&A.querySelectorAll("*").forEach(function(I){return w(function(P){return P.B(c(I),0)})}),A.querySelectorAll("img").forEach(function(I){return w(function(P){return P.B(b(I),0)})})),E.K(0)):E.B(b(C),0)})}),r.K(3)):m.type==="attributes"&&m.attributeName==="src"?m.target.nodeType!==Node.ELEMENT_NODE||m.target.tagName!=="IMG"?r.K(3):r.B(b(m.target),3):d&&m.type==="attributes"&&m.attributeName==="style"&&m.target.nodeType===Node.ELEMENT_NODE?r.B(c(m.target),3):r.K(3)}k=g.next();
-return r.K(2)})});window.imageObserver=e;e.observe(document,{attributes:!0,attributeFilter:d?["src","style"]:["src"],childList:!0,subtree:!0})}var od=Object.getOwnPropertyDescriptor(HTMLImageElement.prototype,"src");function pd(a){if(od&&od.set){var b=od.set;Object.defineProperty(HTMLImageElement.prototype,"src",{set:function(c){b.call(this,c);a(this)},get:od.get,enumerable:od.enumerable,configurable:od.configurable})}};function qd(a){return"data:image/svg+xml;base64,"+btoa(a.replace("\n"," ").replace(/\s+/g," "))}var rd=Object.getOwnPropertyDescriptor(HTMLImageElement.prototype,"src"),sd=rd==null?void 0:rd.set,td=qd('\n  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:100%;">\n    \x3c!-- Wrapper group for opacity --\x3e\n    <g opacity="0.4">\n      <g id="icon" fill="none" stroke="#aaaaaa" stroke-width="5.25" stroke-linecap="round">\n        <circle cx="50" cy="45" r="19"></circle>\n        <line x1="37" y1="32" x2="63" y2="58"></line>\n      </g>\n      <g id="text">\n        <text x="50" y="80" font-family="Arial, sans-serif" font-size="9" fill="#aaaaaa" text-anchor="middle" font-weight="600" font-style="italic">No image</text>\n      </g>\n    </g>\n  </svg>');
-function ud(a){sd==null||sd.call(a,td);a.style.objectFit="fill"}function vd(a,b){a.style.setProperty("background-image","url('"+b+"')","important")}function wd(a){a.style.backgroundSize="100% 100%";vd(a,td)}var xd=qd('\n<svg width="1024" height="1024" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">\n  <defs>\n    <linearGradient id="g" x1="-100%" y1="0" x2="0" y2="0">\n      <stop offset="0" stop-color="#b0b0b0"/>\n      <stop offset=".5" stop-color="#f0f0f0"/>\n      <stop offset="1" stop-color="#b0b0b0"/>\n\n      <animateTransform id="a" \n                        attributeName="gradientTransform" \n                        type="translate" \n                        from="0" to="2" \n                        dur="1s" begin="0s"/>\n      <animateTransform id="b" \n                        attributeName="gradientTransform" \n                        type="translate" \n                        from="0" to="2" \n                        dur="1.5s" begin="a.end"/>\n      <animateTransform attributeName="gradientTransform" \n                        type="translate" \n                        from="0" to="2" \n                        dur="2s" begin="b.end" \n                        repeatCount="indefinite"/>\n    </linearGradient>\n  </defs>\n  \n  <rect width="100" height="100" fill="url(#g)"/>\n</svg>');
+return r.K(2)})});window.imageObserver=e;e.observe(document,{attributes:!0,attributeFilter:d?["src","style"]:["src"],childList:!0,subtree:!0})}var od=Object.getOwnPropertyDescriptor(HTMLImageElement.prototype,"src");function pd(a){if(od&&od.set){var b=od.set;Object.defineProperty(HTMLImageElement.prototype,"src",{set:function(c){b.call(this,c);a(this)},get:od.get,enumerable:od.enumerable,configurable:od.configurable})}};function qd(a){return"data:image/svg+xml;base64,"+btoa(a.replace("\n"," ").replace(/\s+/g," "))}var rd=Object.getOwnPropertyDescriptor(HTMLImageElement.prototype,"src"),sd=rd==null?void 0:rd.set,td=qd('\n <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:100%;">\n \x3c!-- Wrapper group for opacity --\x3e\n <g opacity="0.4">\n <g id="icon" fill="none" stroke="#aaaaaa" stroke-width="5.25" stroke-linecap="round">\n <circle cx="50" cy="45" r="19"></circle>\n <line x1="37" y1="32" x2="63" y2="58"></line>\n </g>\n <g id="text">\n <text x="50" y="80" font-family="Arial, sans-serif" font-size="9" fill="#aaaaaa" text-anchor="middle" font-weight="600" font-style="italic">No image</text>\n </g>\n </g>\n </svg>');
+function ud(a){sd==null||sd.call(a,td);a.style.objectFit="fill"}function vd(a,b){a.style.setProperty("background-image","url('"+b+"')","important")}function wd(a){a.style.backgroundSize="100% 100%";vd(a,td)}var xd=qd('\n<svg width="1024" height="1024" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">\n <defs>\n <linearGradient id="g" x1="-100%" y1="0" x2="0" y2="0">\n <stop offset="0" stop-color="#b0b0b0"/>\n <stop offset=".5" stop-color="#f0f0f0"/>\n <stop offset="1" stop-color="#b0b0b0"/>\n\n <animateTransform id="a" \n attributeName="gradientTransform" \n type="translate" \n from="0" to="2" \n dur="1s" begin="0s"/>\n <animateTransform id="b" \n attributeName="gradientTransform" \n type="translate" \n from="0" to="2" \n dur="1.5s" begin="a.end"/>\n <animateTransform attributeName="gradientTransform" \n type="translate" \n from="0" to="2" \n dur="2s" begin="b.end" \n repeatCount="indefinite"/>\n </linearGradient>\n </defs>\n \n <rect width="100" height="100" fill="url(#g)"/>\n</svg>');
 function yd(a,b){sd==null||sd.call(a,xd);(b=b.match(/aspectRatio=(\d+:\d+)$/))&&b[1]!=="1:1"&&(b=b[1].replace(":","/"),a.style.setProperty("--go-org-aspect-ratio",a.style.aspectRatio),a.style.aspectRatio=b)}
 function zd(a,b){var c=a.style.opacity;a.offsetParent===null||c!==""&&Number(c)<=.15?sd==null||sd.call(a,b):(c=new Image,c.onload=function(){var d=a.style.transition,e=a.style.opacity;a.style.transition="none";a.style.opacity="0";sd==null||sd.call(a,b);setTimeout(function(){a.style.transition="opacity 0.2s ease-in-out";a.style.opacity="1";setTimeout(function(){a.style.transition=d;e==="0"?console.debug("Unexpected: orgOpacity of 0."):a.style.opacity=e;var h=a.style.getPropertyValue("--go-org-aspect-ratio");
 a.style.aspectRatio=h?h:""},250)},10)},sd==null||sd.call(c,b))}function Ad(a){if(!document.baseURI||!a||a.startsWith("/"))return a;var b=(new URL(document.baseURI)).origin;return a.startsWith(b)?a.slice(b.length):a}function Bd(a,b){a=b===void 0||b?window.getComputedStyle(a):a.style;return a.backgroundImage&&a.backgroundImage!=="none"?(a=(a=a.backgroundImage.match(/url\(['"]?(.*?)['"]?\)/))?a[1]:null)?Ad(a):null:null};var Cd=function(a){return function(b){b=JSON.parse(b);if(!Array.isArray(b))throw Error("Expected jspb data to be an array, got "+La(b)+": "+b);gb(b,34);return new a(b)}}(Xc);var Dd=RegExp("^((http(s)?):)?\\/\\/((((lh[3-6](-tt|-d[a-g,y,z]|-testonly)?\\.((ggpht)|(googleusercontent)|(google)|(sandbox\\.google)))|(lh7\\-(eu|us|qw|rt)\\.((googleusercontent)|(google)))|((photos|testonly|work)\\.fife\\.usercontent\\.google)|([\\w\\-]+\\.fife\\.usercontent\\.google)|(([1-4]\\.bp\\.blogspot)|(bp[0-3]\\.blogger))|(ccp-lh\\.googleusercontent)|((((cp|ci|gp)[3-6])|(ap[1-2]))\\.(ggpht|googleusercontent))|(gm[1-4]\\.ggpht)|(play-(ti-)?lh\\.googleusercontent)|(gz0\\.googleusercontent)|(((yt[3-4])|(sp[1-3]))\\.(ggpht|googleusercontent)))\\.com)|(drive\\.google\\.com\\/drive\\-(usercontent|viewer))|(dp[3-6]\\.googleusercontent\\.cn)|(lh[3-6]\\.(googleadsserving\\.cn|xn--9kr7l\\.com))|((photos|drive|contribution)\\-image\\-(dev|qa)(-us|-eu)?(-auth|-cookie)?\\.corp\\.google\\.com)|(photos\\-image\\-dev\\-dl\\-(auth|eu|us)\\.corp\\.google\\.com)|((dev|dev2|dev3|qa|qa2|qa3|qa-red|qa-blue|canary)[-.]lighthouse\\.sandbox\\.google\\.com\\/image)|(image\\-(dev|qa)\\-lighthouse(-auth)?\\.sandbox\\.google\\.com(\\/image)?)|(drive\\-qa\\.corp\\.google\\.com\\/drive\\-(usercontent|viewer))|(docs(\\-(dev|qa)\\.corp)?\\.google\\.com\\/(u\\/[0-9]+\\/)?(docs|sheets|slides|drawings|forms|videos)\\-images\\-(rt|qw))|(docs\\.sandbox\\.google\\.com\\/(u\\/[0-9]+\\/)?(docs|sheets|slides|drawings|forms|videos)\\-images))\\/",
@@ -144,11 +144,11 @@ b){R(a,46,b)}]),nw:new U([3],[function(a,b){R(a,48,b)}]),o:new U([1,3],[function
 [function(a,b){Tc(a,111,b)}]),q:new U([4],[function(a,b){Tc(a,28,b)}]),r:new U([3,0],[function(a,b){R(a,6,b)},function(a,b){T(a,26,b)}]),ra:new U([3],[function(a,b){R(a,103,b)}]),rf:new U([3],[function(a,b){R(a,100,b)}]),rg:new U([3],[function(a,b){R(a,59,b)}]),rh:new U([3],[function(a,b){R(a,49,b)}]),rj:new U([3],[function(a,b){R(a,57,b)}]),ro:new U([2],[function(a,b){Sc(a,78,b)}]),rp:new U([3],[function(a,b){R(a,58,b)}]),rw:new U([3],[function(a,b){R(a,35,b)}]),rwa:new U([3],[function(a,b){R(a,
 64,b)}]),rwu:new U([3],[function(a,b){R(a,41,b)}]),s:new U([3,0],[function(a,b){R(a,33,b)},function(a,b){T(a,1,b)}]),sb:new U([0],[function(a,b){T(a,110,b)}]),sc:new U([0],[function(a,b){T(a,89,b)}]),sg:new U([3],[function(a,b){R(a,82,b)}]),sl:new U([0],[function(a,b){T(a,109,b)}]),sm:new U([3],[function(a,b){R(a,93,b)}]),t:new U([4],[function(a,b){Tc(a,24,b)}]),tm:new U([3],[function(a,b){R(a,113,b)}]),u:new U([3],[function(a,b){R(a,18,b)}]),ut:new U([3],[function(a,b){R(a,45,b)}]),v:new U([0],[function(a,
 b){T(a,62,b)}]),vb:new U([0],[function(a,b){Gc(a,68,b==null?b:Rb(b))}]),vf:new U([4],[function(a,b){Tc(a,102,b)}]),vl:new U([0],[function(a,b){Gc(a,69,b==null?b:Rb(b))}]),vm:new U([3],[function(a,b){R(a,98,b)}]),w:new U([0],[function(a,b){T(a,12,b)}]),x:new U([0],[function(a,b){T(a,9,b)}]),y:new U([0],[function(a,b){T(a,10,b)}]),ya:new U([2],[function(a,b){Sc(a,77,b)}]),z:new U([0],[function(a,b){T(a,11,b)}])};function ie(a,b){Jd("For token '%s': %s",a,b)}
-function je(a,b){var c=new Hd,d=new Hd;if(b=="")a=!0;else{b=b.split("-");for(var e=!0,h=0;h<b.length;h++){var f=b[h];if(f.length==0)e=!1;else{var g=f,k=!1;var m=g;var r=g.charAt(0);r!=r.toLowerCase()&&(k=!0,m=g.charAt(0).toLowerCase()+g.substring(1));var C=ge;for(r=1;r<=m.length;++r){var A=C,E=m.substring(0,r);if(E.length==0?A.ta():!Nd(A,E))break}m=r==1?null:(m=C.get(m.substring(0,r-1)))?{Fa:g.substring(0,r-1),value:g.substring(r-1),La:k,attributes:m}:null;if(m){g=[];k=[];r=!1;for(C=0;C<m.attributes.types.length;C++){A=
-m.attributes.types[C];var I=m.value;E=h;if(m.La&&A==1)for(var P=I.length;P<12&&E<b.length-1;)I+="-"+b[E+1],P=I.length,++E;else if(A==2)for(;E<b.length-1&&b[E+1].match(/^[\d\.]/);)I+="-"+b[E+1],++E;P=m.attributes.A[C];I=ke(a,A)(m.Fa,I,c,d,P);if(I===null){r=!0;h=E;break}else g.push(A),k.push(I)}if(!r)for(m=0;m<k.length;m++)C=g[m],I=k[m],le(a,C)(f,I);e=e&&r}else e=!1}}a=e}return new me(c,d,a)}function ne(a,b,c,d,e,h){e(c,b);a=a.charAt(0);h=h(a==a.toUpperCase());e(d,h)}n=fe.prototype;
-n.Ia=function(a,b,c,d,e){if(b=="")return 0;isFinite(b)&&(b=String(b));b=typeof b==="string"?/^\s*-?0x/i.test(b)?parseInt(b,16):parseInt(b,10):NaN;if(isNaN(b))return 1;ne(a,b,c,d,e,Number);return null};n.Da=function(a,b){switch(b){case 1:ie(a,"Option value could not be interpreted as an integer.");break;case 0:ie(a,"Missing value for integer option.")}};n.Ha=function(a,b,c,d,e){if(b=="")return 0;var h=Number(b);b=h==0&&/^[\s\xa0]*$/.test(b)?NaN:h;if(isNaN(b))return 1;ne(a,b,c,d,e,Number);return null};
-n.Ca=function(a,b){switch(b){case 1:ie(a,"Option value could not be interpreted as a float.");break;case 0:ie(a,"Missing value for float option.")}};n.Ga=function(a,b,c,d,e){if(b!="")return 2;ne(a,!0,c,d,e,Boolean);return null};n.Ba=function(a,b){switch(b){case 2:ie(a,"Unexpected value specified for boolean option.")}};n.Ja=function(a,b,c,d,e){if(b=="")return 0;ne(a,b,c,d,e,function(h){return h?"1":""});return null};n.Ea=function(a,b){switch(b){case 0:ie(a,"Missing value for string option.")}};
-n.Ka=function(a,b,c,d,e){if(b=="")return 0;ne(a,b,c,d,e,function(h){return h?1:0});return null};function ke(a,b){switch(b){case 0:return x(a.Ia,a);case 2:return x(a.Ha,a);case 3:return x(a.Ga,a);case 4:return x(a.Ja,a);case 1:return x(a.Ka,a);default:return function(){}}}function le(a,b){switch(b){case 0:return x(a.Da,a);case 2:return x(a.Ca,a);case 3:return x(a.Ba,a);case 4:case 1:return x(a.Ea,a);default:return function(){}}}function me(a,b,c){this.A=a;this.B=b;this.C=c}me.prototype.F=function(){return this.C};function oe(a,b){a!=null&&this.Z.apply(this,arguments)}n=oe.prototype;n.V="";n.set=function(a){this.V=""+a};n.Z=function(a,b,c){this.V+=String(a);if(b!=null)for(var d=1;d<arguments.length;d++)this.V+=arguments[d];return this};n.clear=function(){this.V=""};n.toString=function(){return this.V};function pe(a){this.D=null;this.C=[];this.B=null;qe(this,a)}function re(a){a.D==null&&(a.D=new fe);return a.D}function qe(a,b){a.B=b?typeof b==="string"?je(re(a),b):b:je(re(a),"")}function V(a,b){return a==b?!1:!0}n=pe.prototype;n.ja=function(a){a=a||void 0;var b=this.B,c=b.A;V(a,G(c,2),G(b.B,2))&&R(c,2,a);return this};n.ia=function(a){a=a||void 0;var b=this.B,c=b.A;V(a,K(c,51),K(b.B,51))&&R(c,51,a);return this};n.ka=function(a){a=a||void 0;var b=this.B,c=b.A;V(a,K(c,32),K(b.B,32))&&R(c,32,a);return this};
+function je(a,b){var c=new Hd,d=new Hd;if(b=="")a=!0;else{b=b.split("-");for(var e=!0,h=0;h<b.length;h++){var f=b[h];if(f.length==0)e=!1;else{var g=f,k=!1;var m=g;var r=g.charAt(0);r!=r.toLowerCase()&&(k=!0,m=g.charAt(0).toLowerCase()+g.substring(1));var C=ge;for(r=1;r<=m.length;++r){var A=C,E=m.substring(0,r);if(E.length==0?A.ta():!Nd(A,E))break}m=r==1?null:(m=C.get(m.substring(0,r-1)))?{Da:g.substring(0,r-1),value:g.substring(r-1),Ja:k,attributes:m}:null;if(m){g=[];k=[];r=!1;for(C=0;C<m.attributes.types.length;C++){A=
+m.attributes.types[C];var I=m.value;E=h;if(m.Ja&&A==1)for(var P=I.length;P<12&&E<b.length-1;)I+="-"+b[E+1],P=I.length,++E;else if(A==2)for(;E<b.length-1&&b[E+1].match(/^[\d\.]/);)I+="-"+b[E+1],++E;P=m.attributes.A[C];I=ke(a,A)(m.Da,I,c,d,P);if(I===null){r=!0;h=E;break}else g.push(A),k.push(I)}if(!r)for(m=0;m<k.length;m++)C=g[m],I=k[m],le(a,C)(f,I);e=e&&r}else e=!1}}a=e}return new me(c,d,a)}function ne(a,b,c,d,e,h){e(c,b);a=a.charAt(0);h=h(a==a.toUpperCase());e(d,h)}n=fe.prototype;
+n.Ga=function(a,b,c,d,e){if(b=="")return 0;isFinite(b)&&(b=String(b));b=typeof b==="string"?/^\s*-?0x/i.test(b)?parseInt(b,16):parseInt(b,10):NaN;if(isNaN(b))return 1;ne(a,b,c,d,e,Number);return null};n.Ba=function(a,b){switch(b){case 1:ie(a,"Option value could not be interpreted as an integer.");break;case 0:ie(a,"Missing value for integer option.")}};n.Fa=function(a,b,c,d,e){if(b=="")return 0;var h=Number(b);b=h==0&&/^[\s\xa0]*$/.test(b)?NaN:h;if(isNaN(b))return 1;ne(a,b,c,d,e,Number);return null};
+n.Aa=function(a,b){switch(b){case 1:ie(a,"Option value could not be interpreted as a float.");break;case 0:ie(a,"Missing value for float option.")}};n.Ea=function(a,b,c,d,e){if(b!="")return 2;ne(a,!0,c,d,e,Boolean);return null};n.za=function(a,b){switch(b){case 2:ie(a,"Unexpected value specified for boolean option.")}};n.Ha=function(a,b,c,d,e){if(b=="")return 0;ne(a,b,c,d,e,function(h){return h?"1":""});return null};n.Ca=function(a,b){switch(b){case 0:ie(a,"Missing value for string option.")}};
+n.Ia=function(a,b,c,d,e){if(b=="")return 0;ne(a,b,c,d,e,function(h){return h?1:0});return null};function ke(a,b){switch(b){case 0:return x(a.Ga,a);case 2:return x(a.Fa,a);case 3:return x(a.Ea,a);case 4:return x(a.Ha,a);case 1:return x(a.Ia,a);default:return function(){}}}function le(a,b){switch(b){case 0:return x(a.Ba,a);case 2:return x(a.Aa,a);case 3:return x(a.za,a);case 4:case 1:return x(a.Ca,a);default:return function(){}}}function me(a,b,c){this.A=a;this.B=b;this.C=c}me.prototype.F=function(){return this.C};function oe(a,b){a!=null&&this.Z.apply(this,arguments)}n=oe.prototype;n.V="";n.set=function(a){this.V=""+a};n.Z=function(a,b,c){this.V+=String(a);if(b!=null)for(var d=1;d<arguments.length;d++)this.V+=arguments[d];return this};n.clear=function(){this.V=""};n.toString=function(){return this.V};function pe(a){this.D=null;this.C=[];this.B=null;qe(this,a)}function re(a){a.D==null&&(a.D=new fe);return a.D}function qe(a,b){a.B=b?typeof b==="string"?je(re(a),b):b:je(re(a),"")}function V(a,b){return a==b?!1:!0}n=pe.prototype;n.ja=function(a){a=a||void 0;var b=this.B,c=b.A;V(a,G(c,2),G(b.B,2))&&R(c,2,a);return this};n.ia=function(a){a=a||void 0;var b=this.B,c=b.A;V(a,K(c,51),K(b.B,51))&&R(c,51,a);return this};n.ka=function(a){a=a||void 0;var b=this.B,c=b.A;V(a,K(c,32),K(b.B,32))&&R(c,32,a);return this};
 n.aa=function(a){var b=this.B,c=b.A;V(a,L(c,13),L(b.B,13))&&T(c,13,a);return this};n.ha=function(a){a=a||void 0;var b=this.B,c=b.A;V(a,G(c,20),G(b.B,20))&&R(c,20,a);return this};n.ma=function(a){a=a||void 0;var b=this.B,c=b.A;V(a,G(c,19),G(b.B,19))&&R(c,19,a);return this};n.la=function(a){a=a||void 0;var b=this.B,c=b.A;V(a,K(c,60),K(b.B,60))&&R(c,60,a);return this};n.oa=function(a){a=a||void 0;var b=this.B,c=b.A;V(a,G(c,67),G(b.B,67))&&R(c,67,a);return this};
 n.na=function(a){a=a||void 0;var b=this.B,c=b.A;V(a,G(c,52),G(b.B,52))&&R(c,52,a);return this};n.U=function(a){var b=this.B,c=b.A;V(a,L(c,1),L(b.B,1))&&T(c,1,a);return this};n.ca=function(a){var b=this.B,c=b.A;V(a,L(c,12),L(b.B,12))&&T(c,12,a);return this};
 n.W=function(){this.C.length=0;var a=this.B,b=a.A;a=a.B;W(this,"s",L(b,1),L(a,1));W(this,"w",L(b,12),L(a,12));Y(this,"c",G(b,2),G(a,2));Y(this,"d",G(b,3),G(a,3));W(this,"h",L(b,13),L(a,13));Y(this,"s",K(b,33),K(a,33));Y(this,"h",G(b,4),G(a,4));Y(this,"p",G(b,19),G(a,19));Y(this,"pp",G(b,52),G(a,52));Y(this,"pf",G(b,67),G(a,67));Y(this,"n",G(b,20),G(a,20));W(this,"r",L(b,26),L(a,26));Y(this,"r",G(b,6),G(a,6));Y(this,"o",K(b,27),K(a,27));var c=Oc(b,7);se(this,"o",c,Oc(a,7));c=Oc(b,29);se(this,"j",c,
@@ -175,10 +175,10 @@ function Ze(a,b){if(We(a))a:{switch(b){case 7:b=0;break;case 4:if(!Ye(a)){a=null
 function $e(a){a.da==void 0&&(a.da=Ze(a,4));return a.da};function af(){}function bf(a,b){Se.call(this,a,b===void 0?!1:b)}ma(bf,Se);function cf(a,b){b=b===void 0?!1:b;this.A=null;a instanceof bf||(df==void 0&&(df=new af),a=new bf(a.toString(),b===void 0?!1:b));a=this.A=a;a.I==void 0&&((b=$e(a))||(b=""),a.I=je(new fe,b));pe.call(this,a.I);this.I=this.A.G;a=this.A;b=a.H.H;this.H=a.H.B+(b?":"+b:"");this.G=this.A.H.C.toString()}Oa(cf,Z);var df;cf.prototype.F=function(){return this.A.F()};
 cf.prototype.W=function(){if(!this.A.F())return this.A.C;var a=cf.L.W.call(this),b=[];Xe(this.A)!=null&&b.push(Xe(this.A));var c=We(this.A);if(Ve(this.A)){var d=this.A;d.S==void 0&&(d.S=Ze(d,6));b.push(d.S+(a?"="+a:""))}else if(c){d=b.push;var e=this.A;e.O===void 0&&(e.O=Ze(e,7));d.call(b,e.O);a&&b.push(a)}else d=b.push,e=this.A,e.T==void 0&&(e.T=Ze(e,0)),d.call(b,e.T),d=b.push,e=this.A,e.ea==void 0&&(e.ea=Ze(e,1)),d.call(b,e.ea),d=b.push,e=this.A,e.P==void 0&&(e.P=Ze(e,2)),d.call(b,e.P),d=b.push,
 e=this.A,e.fa==void 0&&(e.fa=Ze(e,3)),d.call(b,e.fa),a&&b.push(a),a=b.push,d=this.A,d.M==void 0&&(d.M=Ze(d,5)),a.call(b,d.M);b=Le(this.I+this.H+"/"+(c?b.join("="):b.join("/"))+(this.G?"?"+this.G:"")).toString();b.startsWith("%3a//")&&(b=b.replace("%3a//","://"));return b};function ef(a){var b=Ca.apply(1,arguments);if(b.length===0)return dd(a[0]);for(var c=a[0],d=0;d<b.length;d++)c+=encodeURIComponent(b[d])+a[d+1];return dd(c)};var ff=oa(["https://fonts.googleapis.com/css2?family=Google+Symbols:opsz,wght,FILL,GRAD,ROND@24,400,0,0,50&icon_names=link"]),gf=oa(["https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=open_in_full"]);(function(){function a(l){var p=l.parentElement;if(p&&p.classList.contains("dyn-img-link-wrapper-di-script")){var t=p.querySelector(".dyn-img-inline-attribution-di-script");if(t){var B=B===void 0?333:B;ld(l)?t.style.display="none":l.getBoundingClientRect().width>=B?t.style.display="inline-block":t.style.display="none"}if(p=p.querySelector(".dyn-img-attribution-button-di-script"))p.style.display=ld(l)?"none":"flex"}}function b(){if(!document.getElementById("dyn-img-link-styles-di-script")){var l=document.createElement("link");
-l.type="text/css";document.querySelector('link[href*="family=Google+Symbols"]')?console.debug("Google Symbols already imported, skipping import."):(jd(l,ef(ff)),document.head.appendChild(l));document.querySelector('link[href*="family=Material+Symbols+Outlined"]')?console.debug("Material Symbols already imported, skipping import."):(l=document.createElement("link"),jd(l,ef(gf)),document.head.appendChild(l));l=document.createElement("style");l.id="dyn-img-link-styles-di-script";l.textContent="\n      .dyn-img-link-wrapper-di-script {\n        anchor-scope: all;\n        display: contents;\n        position: relative;\n        z-index: 1;\n      }\n\n      .dyn-img-link-wrapper-di-script img {\n        anchor-name: --photo;\n        display: block;\n        max-width: 100%;\n      }\n\n      .dyn-img-link-di-script {\n        z-index: 999999;\n        background-color: rgba(0, 0, 0, 0.5);\n        border-radius: 9999px;\n        box-shadow: 0 1px 2px rgba(0,0,0,0.2);\n        color: white;\n        height: clamp(13px, calc(max(anchor-size(width), anchor-size(height)) * 0.3), 21px);\n        width: clamp(13px, calc(max(anchor-size(width), anchor-size(height)) * 0.3), 21px);\n        padding: 4px;\n        position: absolute;\n\n        bottom: anchor(bottom);\n        left: anchor(left);\n        margin-left: 10px;\n        margin-bottom: 10px;\n\n        transition: background-color 0.2s ease-in-out;\n      }\n\n      .dyn-img-link-di-script:hover {\n        background-color: rgba(0, 0, 0, 0.8);\n      }\n\n      .dyn-img-link-di-script span {\n        font-size: 14px;\n        vertical-align: top;\n      }\n\n      .dyn-img-attribution-button-di-script {\n        z-index: 999999;\n        background-color: rgba(0, 0, 0, 0.5);\n        border-radius: 9999px;\n        box-shadow: 0 1px 2px rgba(0,0,0,0.2);\n        color: white;\n        width: clamp(13px, calc(max(anchor-size(width), anchor-size(height)) * 0.3), 21px);\n        height: clamp(13px, calc(max(anchor-size(width), anchor-size(height)) * 0.3), 21px);\n        padding: 4px;\n\n        position: absolute;\n        position-anchor: --photo;\n        top: anchor(top);\n        right: anchor(right);\n        margin-top: 10px;\n        margin-right: 10px;\n\n        transition: background-color 0.2s ease-in-out;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n      }\n\n      .dyn-img-attribution-button-di-script:hover {\n        background-color: rgba(0, 0, 0, 0.8);\n      }\n\n      .dyn-img-attribution-button-di-script span {\n        font-size: 14px;\n        vertical-align: top;\n      }\n\n      .dyn-img-inline-attribution-di-script {\n        z-index: 999999;\n        font-size: 12px;\n        padding: 4px;\n        display: none;\n\n        position: absolute;\n        position-anchor: --photo;\n        bottom: anchor(bottom);\n        right: anchor(right);\n        margin-bottom: 8px;\n        margin-right: 8px;\n\n        max-width: 200px;\n        overflow: hidden;\n        text-overflow: ellipsis;\n        text-align: right;\n\n        white-space: nowrap;\n        background-color: rgba(0, 0, 0, 0.8);\n        border-radius: 9999px;\n        box-shadow: 0 1px 2px rgba(0,0,0,0.2);\n        color: white;\n      }\n    ";
+l.type="text/css";document.querySelector('link[href*="family=Google+Symbols"]')?console.debug("Google Symbols already imported, skipping import."):(jd(l,ef(ff)),document.head.appendChild(l));document.querySelector('link[href*="family=Material+Symbols+Outlined"]')?console.debug("Material Symbols already imported, skipping import."):(l=document.createElement("link"),jd(l,ef(gf)),document.head.appendChild(l));l=document.createElement("style");l.id="dyn-img-link-styles-di-script";l.textContent="\n .dyn-img-link-wrapper-di-script {\n anchor-scope: all;\n display: contents;\n position: relative;\n z-index: 1;\n }\n\n .dyn-img-link-wrapper-di-script img {\n anchor-name: --photo;\n display: block;\n max-width: 100%;\n }\n\n .dyn-img-link-di-script {\n z-index: 999999;\n background-color: rgba(0, 0, 0, 0.5);\n border-radius: 9999px;\n box-shadow: 0 1px 2px rgba(0,0,0,0.2);\n color: white;\n height: clamp(13px, calc(max(anchor-size(width), anchor-size(height)) * 0.3), 21px);\n width: clamp(13px, calc(max(anchor-size(width), anchor-size(height)) * 0.3), 21px);\n padding: 4px;\n position: absolute;\n\n bottom: anchor(bottom);\n left: anchor(left);\n margin-left: 10px;\n margin-bottom: 10px;\n\n transition: background-color 0.2s ease-in-out;\n }\n\n .dyn-img-link-di-script:hover {\n background-color: rgba(0, 0, 0, 0.8);\n }\n\n .dyn-img-link-di-script span {\n font-size: 14px;\n vertical-align: top;\n }\n\n .dyn-img-attribution-button-di-script {\n z-index: 999999;\n background-color: rgba(0, 0, 0, 0.5);\n border-radius: 9999px;\n box-shadow: 0 1px 2px rgba(0,0,0,0.2);\n color: white;\n width: clamp(13px, calc(max(anchor-size(width), anchor-size(height)) * 0.3), 21px);\n height: clamp(13px, calc(max(anchor-size(width), anchor-size(height)) * 0.3), 21px);\n padding: 4px;\n\n position: absolute;\n position-anchor: --photo;\n top: anchor(top);\n right: anchor(right);\n margin-top: 10px;\n margin-right: 10px;\n\n transition: background-color 0.2s ease-in-out;\n display: flex;\n align-items: center;\n justify-content: center;\n }\n\n .dyn-img-attribution-button-di-script:hover {\n background-color: rgba(0, 0, 0, 0.8);\n }\n\n .dyn-img-attribution-button-di-script span {\n font-size: 14px;\n vertical-align: top;\n }\n\n .dyn-img-inline-attribution-di-script {\n z-index: 999999;\n font-size: 12px;\n padding: 4px;\n display: none;\n\n position: absolute;\n position-anchor: --photo;\n bottom: anchor(bottom);\n right: anchor(right);\n margin-bottom: 8px;\n margin-right: 8px;\n\n max-width: 200px;\n overflow: hidden;\n text-overflow: ellipsis;\n text-align: right;\n\n white-space: nowrap;\n background-color: rgba(0, 0, 0, 0.8);\n border-radius: 9999px;\n box-shadow: 0 1px 2px rgba(0,0,0,0.2);\n color: white;\n }\n ";
 document.head.appendChild(l)}}function c(l,p){p=l=(l.get(p)||"").trim();((p.match(/(([a-z]|'|%27)[a-z]|a)\+[a-z]{2}/gi)||[]).length>=2||!p.includes(" ")&&!p.includes("%20"))&&(l=l.replaceAll("+","%20"));return decodeURIComponent(l).trim()}function d(l){l=m(l,"/image?");var p=new URLSearchParams(l);l=c(p,"query");return(p=p.get("aspect"))&&p!=="1:1"?l+"&aspect="+p:l}function e(l){l=m(l,"/gen?");var p=new URLSearchParams(l);l=c(p,"prompt");var t=p.get("aspect");t&&t!=="1:1"&&(l+="&aspect="+t);(t=p.get("context_image_idx"))&&
-(l+="&context_image_idx="+t.split(",").map(Number).sort(function(B,J){return B-J}).join(","));(p=p.get("reimagine"))&&(l+="&reimagine="+p);return l}function h(l){return l.replace(/&aspect=\d+:\d+/,"")}function f(l){l=l.replace(/[^a-zA-Z0-9-_]/g," ");return"data:image/svg+xml,"+encodeURIComponent('<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">\n      <style>\n        .s { stroke:#E57373; stroke-width:30; fill:none; stroke-linecap:round }\n        .t { font:bold 68px Arial; text-anchor:middle; dominant-baseline:middle }\n      </style>\n      <g class="s">\n        <circle cx="256" cy="256" r="230"/>\n        <path d="M120 120L392 392M392 120L120 392"/>\n      </g>\n      <text class="t" x="50%" y="50%">'+
-l+"</text>\n    </svg>")}function g(l){var p,t,B,J,N,S,H,X,O;return w(function(M){switch(M.A){case 1:if(Dd.test(l)||Ed.test(l)||Fd.test(l)||Gd.test(l)){M.K(2);break}return M.B(fetch(l),3);case 3:return p=M.D,M.return(p.blob());case 2:var ba=$e(new bf(l,!1));t=new Z(ba);t.U(1024);ba=t.W();var ta=new cf(l,!1);qe(ta,ba);B=ta.W();J=new URL(B);J.searchParams.set("alr","yes");((N=window.geminiGoConstants)==null?0:N.authUserSessionIndex)&&J.searchParams.set("authuser",window.geminiGoConstants.authUserSessionIndex.toString());
+(l+="&context_image_idx="+t.split(",").map(Number).sort(function(B,J){return B-J}).join(","));(p=p.get("reimagine"))&&(l+="&reimagine="+p);return l}function h(l){return l.replace(/&aspect=\d+:\d+/,"")}function f(l){l=l.replace(/[^a-zA-Z0-9-_]/g," ");return"data:image/svg+xml,"+encodeURIComponent('<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">\n <style>\n .s { stroke:#E57373; stroke-width:30; fill:none; stroke-linecap:round }\n .t { font:bold 68px Arial; text-anchor:middle; dominant-baseline:middle }\n </style>\n <g class="s">\n <circle cx="256" cy="256" r="230"/>\n <path d="M120 120L392 392M392 120L120 392"/>\n </g>\n <text class="t" x="50%" y="50%">'+
+l+"</text>\n </svg>")}function g(l){var p,t,B,J,N,S,H,X,O;return w(function(M){switch(M.A){case 1:if(Dd.test(l)||Ed.test(l)||Fd.test(l)||Gd.test(l)){M.K(2);break}return M.B(fetch(l),3);case 3:return p=M.D,M.return(p.blob());case 2:var ba=$e(new bf(l,!1));t=new Z(ba);t.U(1024);ba=t.W();var ta=new cf(l,!1);qe(ta,ba);B=ta.W();J=new URL(B);J.searchParams.set("alr","yes");((N=window.geminiGoConstants)==null?0:N.authUserSessionIndex)&&J.searchParams.set("authuser",window.geminiGoConstants.authUserSessionIndex.toString());
 S=0;case 4:if(!(S<5)){M.K(6);break}return M.B(fetch(J.toString(),{credentials:"include"}),7);case 7:H=M.D;if(!H.ok)throw Error("Fetch using ALR received not OK response");X=void 0;if((X=H.headers.get("content-type"))==null?0:X.startsWith("text/plain")){M.K(8);break}return M.B(H.blob(),9);case 9:return O=M.D,M.return(O);case 8:return M.B(H.text(),10);case 10:J=new URL(M.D);S++;M.K(4);break;case 6:throw Error("Fetch using ALR exceeded maximum number of redirects");}})}function k(l,p,t){var B=h(l);return l in
 p?p[l]:B in t?p[t[B]]:null}function m(l,p){return l.startsWith(p)?l.slice(p.length):l}function r(l,p){l=u(Object.keys(l));for(var t=l.next();!t.done;t=l.next())t=t.value,p[h(t)]=t;l=u(Object.keys(IMG_SEARCH_REPLACE_MAP));for(t=l.next();!t.done;t=l.next())t=t.value,t.includes("&aspect=")||(p[h(t)]=t)}function C(){for(var l=u(Object.entries(IMG_GEN_REPLACE_MAP)),p=l.next(),t={};!p.done;t={Y:void 0},p=l.next()){var B=u(p.value);p=B.next().value;B=B.next().value;t.Y=p;p=B;p.startsWith("data:text/plain;utf-8,")?
 ha.C[t.Y]=f(p.slice(22)):(ha.B[t.Y]=g(p),ha.B[t.Y].then(function(J){return function(){ha.D.add(J.Y)}}(t)))}}function A(l){if(!l.startsWith("/image?query=")||!IMG_SEARCH_REIMAGINE_PARAM)return l;var p=d(l);return k(p,IMG_SEARCH_REPLACE_MAP,vb)?l:"/gen?prompt="+m(l,"/image?query=")+"&reimagine="+IMG_SEARCH_REIMAGINE_PARAM}function E(l){var p,t,B,J;return w(function(N){if(N.A==1){p=e(l);if(t=ha.C[p])return console.debug("Returning error url for prompt: ",prompt),N.return(t);B=k(p,ha.B,ha.A);if(!B)return console.debug("No image found for prompt: ",
@@ -198,745 +198,732 @@ function(){de()}):de()})();}).call(this);
 </script>
 
 <meta name="surface-hint" content="desktop-responsive" data-hint="injected-ffc2e83d85">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>מי מחליט? - האפליקציה הרשמית</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700;900&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
-    <style>
-        body {
-            font-family: 'Heebo', sans-serif;
-            background-color: #0f172a;
-            color: #f8fafc;
-            overflow-x: hidden;
-            touch-action: manipulation;
-        }
-
-        .glass {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .omer-color { color: #a855f7; } /* Purple */
-        .elia-color { color: #22c55e; } /* Green */
-        .omer-bg { background-color: #a855f7; }
-        .elia-bg { background-color: #22c55e; }
-
-        .wheel-container {
-            transition: transform 4s cubic-bezier(0.15, 0, 0.15, 1);
-        }
-
-        .shake {
-            animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
-        }
-
-        @keyframes shake {
-            10%, 90% { transform: translate3d(-1px, 0, 0); }
-            20%, 80% { transform: translate3d(2px, 0, 0); }
-            30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
-            40%, 60% { transform: translate3d(4px, 0, 0); }
-        }
-
-        .scale-in {
-            animation: scaleIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
-        }
-
-        @keyframes scaleIn {
-            from { transform: scale(0.8); opacity: 0; }
-            to { transform: scale(1); opacity: 1; }
-        }
-
-        .timer-glow {
-            text-shadow: 0 0 20px rgba(234, 179, 8, 0.6);
-        }
-
-        .victory-overlay {
-            background: radial-gradient(circle, rgba(15,23,42,0.95) 0%, rgba(2,6,23,1) 100%);
-        }
-    </style>
-    <!-- 
-    Images Used:
-    "/gen?prompt=vibrant+abstract+colorful+background+for+kids+game+app+neon+purple+and+green&aspect=9:16"
-    "/gen?prompt=3d+golden+trophy+cartoon+style+shining+on+dark+background&aspect=1:1"
-    -->
-<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.relative{position:relative}.inset-0{inset:0px}.-z-10{z-index:-10}.z-50{z-index:50}.z-\[100\]{z-index:100}.z-\[110\]{z-index:110}.mx-auto{margin-left:auto;margin-right:auto}.mb-10{margin-bottom:2.5rem}.mb-12{margin-bottom:3rem}.mb-6{margin-bottom:1.5rem}.mt-2{margin-top:0.5rem}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-28{height:7rem}.h-64{height:16rem}.h-full{height:100%}.h-3\.5{height:0.875rem}.max-h-\[90vh\]{max-height:90vh}.min-h-\[420px\]{min-height:420px}.min-h-screen{min-height:100vh}.w-64{width:16rem}.w-full{width:100%}.w-3\.5{width:0.875rem}.max-w-2xl{max-width:42rem}.max-w-md{max-width:28rem}.max-w-sm{max-width:24rem}.flex-grow{flex-grow:1}.scale-105{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes bounce{0%, 100%{transform:translateY(-25%);animation-timing-function:cubic-bezier(0.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0,0.2,1)}}.animate-bounce{animation:bounce 1s infinite}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1\.5{gap:0.375rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.space-y-8 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem * var(--tw-space-y-reverse))}.overflow-auto{overflow:auto}.overflow-hidden{overflow:hidden}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-\[2\.5rem\]{border-radius:2.5rem}.rounded-\[3rem\]{border-radius:3rem}.rounded-full{border-radius:9999px}.rounded-xl{border-radius:0.75rem}.rounded-\[2rem\]{border-radius:2rem}.border{border-width:1px}.border-4{border-width:4px}.border-b-8{border-bottom-width:8px}.border-dashed{border-style:dashed}.border-green-500{--tw-border-opacity:1;border-color:rgb(34 197 94 / var(--tw-border-opacity, 1))}.border-green-500\/20{border-color:rgb(34 197 94 / 0.2)}.border-green-800{--tw-border-opacity:1;border-color:rgb(22 101 52 / var(--tw-border-opacity, 1))}.border-purple-500{--tw-border-opacity:1;border-color:rgb(168 85 247 / var(--tw-border-opacity, 1))}.border-purple-500\/20{border-color:rgb(168 85 247 / 0.2)}.border-purple-800{--tw-border-opacity:1;border-color:rgb(107 33 168 / var(--tw-border-opacity, 1))}.border-red-500\/30{border-color:rgb(239 68 68 / 0.3)}.border-white\/10{border-color:rgb(255 255 255 / 0.1)}.border-white\/20{border-color:rgb(255 255 255 / 0.2)}.border-white\/5{border-color:rgb(255 255 255 / 0.05)}.border-yellow-500\/30{border-color:rgb(234 179 8 / 0.3)}.border-yellow-500{--tw-border-opacity:1;border-color:rgb(234 179 8 / var(--tw-border-opacity, 1))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.bg-black\/95{background-color:rgb(0 0 0 / 0.95)}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-emerald-500{--tw-bg-opacity:1;background-color:rgb(16 185 129 / var(--tw-bg-opacity, 1))}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-white\/5{background-color:rgb(255 255 255 / 0.05)}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-purple-400{--tw-gradient-from:#c084fc var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 132 252 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-500{--tw-gradient-from:#a855f7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(168 85 247 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.to-green-400{--tw-gradient-to:#4ade80 var(--tw-gradient-to-position)}.to-green-500{--tw-gradient-to:#22c55e var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.object-cover{object-fit:cover}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-16{padding-left:4rem;padding-right:4rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pt-4{padding-top:1rem}.text-left{text-align:left}.text-center{text-align:center}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-7xl{font-size:4.5rem;line-height:1}.text-9xl{font-size:8rem;line-height:1}.text-\[10px\]{font-size:10px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-medium{font-weight:500}.uppercase{text-transform:uppercase}.italic{font-style:italic}.tracking-tighter{letter-spacing:-0.05em}.tracking-widest{letter-spacing:0.1em}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-blue-400{--tw-text-opacity:1;color:rgb(96 165 250 / var(--tw-text-opacity, 1))}.text-green-400{--tw-text-opacity:1;color:rgb(74 222 128 / var(--tw-text-opacity, 1))}.text-orange-400{--tw-text-opacity:1;color:rgb(251 146 60 / var(--tw-text-opacity, 1))}.text-purple-400{--tw-text-opacity:1;color:rgb(192 132 252 / var(--tw-text-opacity, 1))}.text-red-400{--tw-text-opacity:1;color:rgb(248 113 113 / var(--tw-text-opacity, 1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21 / var(--tw-text-opacity, 1))}.text-yellow-500{--tw-text-opacity:1;color:rgb(234 179 8 / var(--tw-text-opacity, 1))}.text-slate-200{--tw-text-opacity:1;color:rgb(226 232 240 / var(--tw-text-opacity, 1))}.opacity-20{opacity:0.2}.opacity-50{opacity:0.5}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.drop-shadow-\[0_0_60px_rgba\(234\2c 179\2c 8\2c 0\.4\)\]{--tw-drop-shadow:drop-shadow(0 0 60px rgba(234,179,8,0.4));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-slate-700:hover{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.hover\:bg-white\/10:hover{background-color:rgb(255 255 255 / 0.1)}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.focus\:border-green-500:focus{--tw-border-opacity:1;border-color:rgb(34 197 94 / var(--tw-border-opacity, 1))}.focus\:border-purple-500:focus{--tw-border-opacity:1;border-color:rgb(168 85 247 / var(--tw-border-opacity, 1))}.active\:scale-90:active{--tw-scale-x:.9;--tw-scale-y:.9;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.active\:scale-95:active{--tw-scale-x:.95;--tw-scale-y:.95;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:rotate-45{--tw-rotate:45deg;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:scale-110{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}</style><link type="text/css" href="https://fonts.googleapis.com/css2?family=Google+Symbols:opsz,wght,FILL,GRAD,ROND@24,400,0,0,50&amp;icon_names=link" rel="stylesheet"><style id="dyn-img-link-styles-di-script">
-      .dyn-img-link-wrapper-di-script {
-        anchor-scope: all;
-        display: contents;
-        position: relative;
-        z-index: 1;
-      }
-
-      .dyn-img-link-wrapper-di-script img {
-        anchor-name: --photo;
-        display: block;
-        max-width: 100%;
-      }
-
-      .dyn-img-link-di-script {
-        z-index: 999999;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 9999px;
-        box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-        color: white;
-        height: clamp(13px, calc(max(anchor-size(width), anchor-size(height)) * 0.3), 21px);
-        width: clamp(13px, calc(max(anchor-size(width), anchor-size(height)) * 0.3), 21px);
-        padding: 4px;
-        position: absolute;
-
-        bottom: anchor(bottom);
-        left: anchor(left);
-        margin-left: 10px;
-        margin-bottom: 10px;
-
-        transition: background-color 0.2s ease-in-out;
-      }
-
-      .dyn-img-link-di-script:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-      }
-
-      .dyn-img-link-di-script span {
-        font-size: 14px;
-        vertical-align: top;
-      }
-
-      .dyn-img-attribution-button-di-script {
-        z-index: 999999;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 9999px;
-        box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-        color: white;
-        width: clamp(13px, calc(max(anchor-size(width), anchor-size(height)) * 0.3), 21px);
-        height: clamp(13px, calc(max(anchor-size(width), anchor-size(height)) * 0.3), 21px);
-        padding: 4px;
-
-        position: absolute;
-        position-anchor: --photo;
-        top: anchor(top);
-        right: anchor(right);
-        margin-top: 10px;
-        margin-right: 10px;
-
-        transition: background-color 0.2s ease-in-out;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .dyn-img-attribution-button-di-script:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-      }
-
-      .dyn-img-attribution-button-di-script span {
-        font-size: 14px;
-        vertical-align: top;
-      }
-
-      .dyn-img-inline-attribution-di-script {
-        z-index: 999999;
-        font-size: 12px;
-        padding: 4px;
-        display: none;
-
-        position: absolute;
-        position-anchor: --photo;
-        bottom: anchor(bottom);
-        right: anchor(right);
-        margin-bottom: 8px;
-        margin-right: 8px;
-
-        max-width: 200px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        text-align: right;
-
-        white-space: nowrap;
-        background-color: rgba(0, 0, 0, 0.8);
-        border-radius: 9999px;
-        box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-        color: white;
-      }
-    </style></head>
-<body class="min-h-screen flex flex-col items-center p-4">
-
-    <!-- Background Decoration -->
-    <img src="data:image/svg+xml;base64,IDxzdmcgd2lkdGg9IjEwMjQiIGhlaWdodD0iMTAyNCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+IDxkZWZzPiA8bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSItMTAwJSIgeTE9IjAiIHgyPSIwIiB5Mj0iMCI+IDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2IwYjBiMCIvPiA8c3RvcCBvZmZzZXQ9Ii41IiBzdG9wLWNvbG9yPSIjZjBmMGYwIi8+IDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2IwYjBiMCIvPiA8YW5pbWF0ZVRyYW5zZm9ybSBpZD0iYSIgYXR0cmlidXRlTmFtZT0iZ3JhZGllbnRUcmFuc2Zvcm0iIHR5cGU9InRyYW5zbGF0ZSIgZnJvbT0iMCIgdG89IjIiIGR1cj0iMXMiIGJlZ2luPSIwcyIvPiA8YW5pbWF0ZVRyYW5zZm9ybSBpZD0iYiIgYXR0cmlidXRlTmFtZT0iZ3JhZGllbnRUcmFuc2Zvcm0iIHR5cGU9InRyYW5zbGF0ZSIgZnJvbT0iMCIgdG89IjIiIGR1cj0iMS41cyIgYmVnaW49ImEuZW5kIi8+IDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9ImdyYWRpZW50VHJhbnNmb3JtIiB0eXBlPSJ0cmFuc2xhdGUiIGZyb209IjAiIHRvPSIyIiBkdXI9IjJzIiBiZWdpbj0iYi5lbmQiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+IDwvbGluZWFyR3JhZGllbnQ+IDwvZGVmcz4gPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9InVybCgjZykiLz4gPC9zdmc+" class="fixed inset-0 w-full h-full object-cover opacity-20 -z-10" alt="background">
-
-    <div class="w-full max-w-md flex flex-col gap-6 flex-grow">
-        
-        <!-- Header -->
-        <header class="flex justify-between items-center w-full py-2">
-            <button class="glass p-3 rounded-full flex items-center justify-center hover:bg-white/10 active:scale-90 transition-all" onclick="toggleLeaderboard()">
-                <span class="material-symbols-outlined text-yellow-500">leaderboard</span>
-            </button>
-            <h1 class="text-4xl font-black tracking-tighter italic bg-gradient-to-r from-purple-400 to-green-400 bg-clip-text text-transparent">מי מחליט?</h1>
-            <button class="glass p-3 rounded-full flex items-center justify-center hover:bg-white/10 active:scale-90 transition-all" onclick="toggleSettings()">
-                <span class="material-symbols-outlined text-slate-300">settings</span>
-            </button>
-        </header>
-
-        <!-- Current Stake Badge (Visible once dispute is chosen) -->
-        <div id="stake-display" class="hidden flex flex-col items-center gap-2">
-            <div class="px-6 py-2 rounded-full glass border border-yellow-500/30 text-yellow-400 font-bold text-lg shadow-lg">
-                <span id="active-dispute-text"></span>
-            </div>
-            <div class="flex gap-2">
-                <button id="best-of-3" class="text-xs px-4 py-1.5 rounded-full glass font-bold transition-all border border-yellow-500 text-yellow-500 scale-105 shadow-lg" onclick="setBestOf(3)">הטוב מ-3</button>
-                <button id="best-of-5" class="text-xs px-4 py-1.5 rounded-full glass font-bold transition-all border border-white/10 opacity-50" onclick="setBestOf(5)">הטוב מ-5</button>
-            </div>
-        </div>
-
-        <!-- MAIN SCREENS -->
-        <main class="flex-grow flex flex-col gap-4 relative">
-            
-            <!-- 1. DISPUTE SELECTION SCREEN -->
-            <section id="screen-dispute" class="scale-in space-y-4">
-                <div class="glass rounded-[2.5rem] p-8 space-y-8 shadow-2xl">
-                    <div class="text-center space-y-2">
-                        <h2 class="text-2xl font-black">על מה רבים הפעם?</h2>
-                        <p class="text-slate-400">בחרו נושא כדי להתחיל בקרב</p>
-                    </div>
-                    <div id="category-grid" class="grid grid-cols-2 gap-4">
-                <button onclick="selectDispute('מי מתקלח אחרון?')" class="glass p-5 rounded-[2rem] flex flex-col items-center gap-4 border border-white/5 active:scale-95 transition-all">
-                    <span class="material-symbols-outlined text-4xl text-slate-400">stars</span>
-                    <span class="text-sm font-bold text-slate-200">מי מתקלח אחרון?</span>
-                </button>
-            
-                <button onclick="selectDispute('מי רואה TV ראשון?')" class="glass p-5 rounded-[2rem] flex flex-col items-center gap-4 border border-white/5 active:scale-95 transition-all">
-                    <span class="material-symbols-outlined text-4xl text-slate-400">stars</span>
-                    <span class="text-sm font-bold text-slate-200">מי רואה TV ראשון?</span>
-                </button>
-            
-                <button onclick="selectDispute('מי משחק בסוני ראשון?')" class="glass p-5 rounded-[2rem] flex flex-col items-center gap-4 border border-white/5 active:scale-95 transition-all">
-                    <span class="material-symbols-outlined text-4xl text-slate-400">stars</span>
-                    <span class="text-sm font-bold text-slate-200">מי משחק בסוני ראשון?</span>
-                </button>
-            
-                <button onclick="selectDispute('מי יושב ליד החלון?')" class="glass p-5 rounded-[2rem] flex flex-col items-center gap-4 border border-white/5 active:scale-95 transition-all">
-                    <span class="material-symbols-outlined text-4xl text-slate-400">stars</span>
-                    <span class="text-sm font-bold text-slate-200">מי יושב ליד החלון?</span>
-                </button>
-            
-                <button onclick="selectDispute('סתם משעמם לנו!')" class="glass p-5 rounded-[2rem] flex flex-col items-center gap-4 border border-white/5 active:scale-95 transition-all">
-                    <span class="material-symbols-outlined text-4xl text-slate-400">stars</span>
-                    <span class="text-sm font-bold text-slate-200">סתם משעמם לנו!</span>
-                </button>
-            
-                <button onclick="customDispute()" class="glass p-5 rounded-[2rem] flex flex-col items-center gap-4 border border-dashed border-white/20 active:scale-95 transition-all">
-                    <span class="material-symbols-outlined text-4xl text-slate-500">add_circle</span>
-                    <span class="text-sm font-bold text-slate-400">אחר...</span>
-                </button>
-            </div>
-                </div>
-            </section>
-
-            <!-- 2. GAME ARENA SCREEN -->
-            <section id="screen-arena" class="hidden flex flex-col gap-6 scale-in">
-                <!-- Score Cards -->
-                <div class="grid grid-cols-2 gap-4">
-                    <div class="glass rounded-3xl p-5 text-center border-b-8 border-purple-500" id="card-p1">
-                        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest player1-name">עומר</p>
-                        <p class="text-5xl font-black omer-color" id="score-p1">0</p>
-                        <div id="dots-p1" class="flex justify-center gap-1.5 mt-2"><div class="w-3.5 h-3.5 rounded-full bg-slate-700"></div><div class="w-3.5 h-3.5 rounded-full bg-slate-700"></div></div>
-                    </div>
-                    <div class="glass rounded-3xl p-5 text-center border-b-8 border-green-500" id="card-p2">
-                        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest player2-name">אליה</p>
-                        <p class="text-5xl font-black elia-color" id="score-p2">0</p>
-                        <div id="dots-p2" class="flex justify-center gap-1.5 mt-2"><div class="w-3.5 h-3.5 rounded-full bg-slate-700"></div><div class="w-3.5 h-3.5 rounded-full bg-slate-700"></div></div>
-                    </div>
-                </div>
-
-                <!-- Game Playground -->
-                <div id="playground" class="glass rounded-[3rem] min-h-[420px] flex flex-col items-center justify-center p-8 relative overflow-hidden border border-white/10 shadow-inner">
-                    <div id="playground-content" class="w-full flex flex-col items-center gap-8">
-                        <span class="material-symbols-outlined text-9xl text-slate-700 animate-bounce">joystick</span>
-                        <h3 class="text-3xl font-black text-slate-400">בחרו סוג משחק:</h3>
-                    </div>
-                </div>
-
-                <!-- Game Mini-Nav -->
-                <div class="grid grid-cols-3 gap-3">
-                    <button class="glass p-5 rounded-3xl flex flex-col items-center gap-2 hover:bg-white/10 active:scale-90 transition-all group" onclick="startReaction()">
-                        <span class="material-symbols-outlined text-yellow-400 group-hover:scale-110 transition-transform">bolt</span>
-                        <span class="text-xs font-bold">תגובה</span>
-                    </button>
-                    <button class="glass p-5 rounded-2xl flex flex-col items-center gap-2 hover:bg-white/10 active:scale-90 transition-all group" onclick="startWheel()">
-                        <span class="material-symbols-outlined text-orange-400 group-hover:rotate-45 transition-transform">progress_activity</span>
-                        <span class="text-xs font-bold">גלגל</span>
-                    </button>
-                    <button class="glass p-5 rounded-2xl flex flex-col items-center gap-2 hover:bg-white/10 active:scale-90 transition-all group" onclick="startNumbers()">
-                        <span class="material-symbols-outlined text-blue-400 group-hover:scale-110 transition-transform">pin</span>
-                        <span class="text-xs font-bold">מספר</span>
-                    </button>
-                </div>
-
-                <!-- Player Action Buttons -->
-                <div class="grid grid-cols-2 gap-4">
-                    <button id="action-p1" class="omer-bg h-28 rounded-[2.5rem] text-4xl font-black shadow-xl active:scale-90 transition-all text-white border-b-8 border-purple-800 player1-name" onmousedown="handlePlayerAction(1)" ontouchstart="handlePlayerAction(1)">עומר</button>
-                    <button id="action-p2" class="elia-bg h-28 rounded-[2.5rem] text-4xl font-black shadow-xl active:scale-90 transition-all text-white border-b-8 border-green-800 player2-name" onmousedown="handlePlayerAction(2)" ontouchstart="handlePlayerAction(2)">אליה</button>
-                </div>
-            </section>
-        </main>
-
-        <!-- Footer Actions -->
-        <footer class="flex justify-between items-center py-6">
-            <button class="flex items-center gap-2 text-slate-500 hover:text-white transition-all text-xs font-bold uppercase" onclick="resetApp()">
-                <span class="material-symbols-outlined text-sm">refresh</span> איפוס הכל
-            </button>
-            <button class="bg-slate-800 px-6 py-2 rounded-full text-xs font-black uppercase tracking-widest hover:bg-slate-700 transition-all border border-white/5 flex items-center gap-2 shadow-lg" onclick="exportHTML()">
-                <span class="material-symbols-outlined text-sm">code</span> ייצוא קוד
-            </button>
-        </footer>
-    </div>
-
-    <!-- MODAL OVERLAYS -->
-    
-    <!-- Leaderboard Modal -->
-    <div id="modal-leaderboard" class="fixed inset-0 z-50 bg-black/95 hidden flex items-center justify-center p-6">
-        <div class="glass w-full max-w-sm rounded-[3rem] p-8 space-y-8 text-center shadow-2xl">
-            <h3 class="text-3xl font-black flex items-center justify-center gap-3">
-                <span class="material-symbols-outlined text-yellow-500 text-4xl">leaderboard</span> ניצחונות סופיים
-            </h3>
-            <div class="space-y-4">
-                <div class="flex justify-between items-center p-5 glass rounded-2xl border border-purple-500/20">
-                    <span class="text-xl font-bold omer-color player1-name">עומר</span>
-                    <span id="lifetime-p1" class="text-5xl font-black">0</span>
-                </div>
-                <div class="flex justify-between items-center p-5 glass rounded-2xl border border-green-500/20">
-                    <span class="text-xl font-bold elia-color player2-name">אליה</span>
-                    <span id="lifetime-p2" class="text-5xl font-black">0</span>
-                </div>
-            </div>
-            <div class="flex gap-2">
-                <button class="flex-grow glass border border-red-500/30 text-red-400 p-4 rounded-2xl font-bold text-xs" onclick="clearLifetime()">איפוס טבלה</button>
-                <button class="flex-grow bg-slate-800 p-4 rounded-2xl font-bold text-lg" onclick="toggleLeaderboard()">סגירה</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Settings Modal -->
-    <div id="modal-settings" class="fixed inset-0 z-50 bg-black/95 hidden flex items-center justify-center p-6">
-        <div class="glass w-full max-w-sm rounded-[3rem] p-8 space-y-6">
-            <h3 class="text-2xl font-black text-center">הגדרות</h3>
-            <div class="space-y-4">
-                <div class="space-y-1">
-                    <label class="text-xs font-bold uppercase text-purple-400">שם הבן (סגול)</label>
-                    <input id="input-name-1" type="text" class="w-full glass bg-white/5 p-4 rounded-2xl border border-white/10 focus:border-purple-500 outline-none transition-all">
-                </div>
-                <div class="space-y-1">
-                    <label class="text-xs font-bold uppercase text-green-400">שם הבת (ירוק)</label>
-                    <input id="input-name-2" type="text" class="w-full glass bg-white/5 p-4 rounded-2xl border border-white/10 focus:border-green-500 outline-none transition-all">
-                </div>
-                <div class="pt-4 space-y-2">
-                    <label class="text-xs font-bold uppercase text-slate-400">הוספת קטגוריית מריבה</label>
-                    <div class="flex gap-2">
-                        <input id="input-new-category" type="text" placeholder="הקלד כאן..." class="flex-grow glass bg-white/5 p-4 rounded-2xl border border-white/10 outline-none">
-                        <button class="bg-blue-600 px-6 rounded-2xl font-black" onclick="addCategory()">הוסף</button>
-                    </div>
-                </div>
-            </div>
-            <button class="w-full bg-emerald-500 p-5 rounded-2xl font-black text-xl shadow-lg active:scale-95 transition-all" onclick="saveSettings()">שמירה וסגירה</button>
-        </div>
-    </div>
-
-    <!-- Victory Modal (Full Screen Popup) -->
-    <div id="modal-victory" class="fixed inset-0 z-[100] victory-overlay hidden flex flex-col items-center justify-center p-8 text-center">
-        <div class="scale-in flex flex-col items-center">
-            <img src="data:image/svg+xml;base64,IDxzdmcgd2lkdGg9IjEwMjQiIGhlaWdodD0iMTAyNCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+IDxkZWZzPiA8bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSItMTAwJSIgeTE9IjAiIHgyPSIwIiB5Mj0iMCI+IDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2IwYjBiMCIvPiA8c3RvcCBvZmZzZXQ9Ii41IiBzdG9wLWNvbG9yPSIjZjBmMGYwIi8+IDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2IwYjBiMCIvPiA8YW5pbWF0ZVRyYW5zZm9ybSBpZD0iYSIgYXR0cmlidXRlTmFtZT0iZ3JhZGllbnRUcmFuc2Zvcm0iIHR5cGU9InRyYW5zbGF0ZSIgZnJvbT0iMCIgdG89IjIiIGR1cj0iMXMiIGJlZ2luPSIwcyIvPiA8YW5pbWF0ZVRyYW5zZm9ybSBpZD0iYiIgYXR0cmlidXRlTmFtZT0iZ3JhZGllbnRUcmFuc2Zvcm0iIHR5cGU9InRyYW5zbGF0ZSIgZnJvbT0iMCIgdG89IjIiIGR1cj0iMS41cyIgYmVnaW49ImEuZW5kIi8+IDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9ImdyYWRpZW50VHJhbnNmb3JtIiB0eXBlPSJ0cmFuc2xhdGUiIGZyb209IjAiIHRvPSIyIiBkdXI9IjJzIiBiZWdpbj0iYi5lbmQiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+IDwvbGluZWFyR3JhZGllbnQ+IDwvZGVmcz4gPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9InVybCgjZykiLz4gPC9zdmc+" class="w-64 h-64 mb-10 drop-shadow-[0_0_60px_rgba(234,179,8,0.4)] animate-bounce" alt="trophy">
-            <h2 id="winner-title" class="text-7xl font-black mb-6 italic tracking-tighter">המנצח!</h2>
-            <p id="winner-subtitle" class="text-2xl text-slate-300 font-medium mb-12 italic"></p>
-            <button class="bg-gradient-to-r from-purple-500 to-green-500 px-16 py-8 rounded-[3rem] text-4xl font-black shadow-2xl hover:scale-105 active:scale-90 transition-all border-4 border-white/20" onclick="backToMenu()">חזרה לתפריט</button>
-        </div>
-    </div>
-
-    <!-- Export Area -->
-    <div id="modal-export" class="fixed inset-0 z-[110] bg-black hidden flex flex-col p-4">
-        <div class="glass w-full max-w-2xl rounded-3xl p-6 flex flex-col gap-4 max-h-[90vh] mx-auto">
-            <div class="flex justify-between items-center">
-                <h3 class="text-xl font-bold">קוד מקור index.html</h3>
-                <button class="material-symbols-outlined text-slate-400" onclick="closeExport()">close</button>
-            </div>
-            <pre id="export-code-box" class="flex-grow w-full bg-slate-900 text-blue-300 p-4 rounded-xl font-mono text-[10px] overflow-auto border border-white/10 text-left" dir="ltr"></pre>
-            <button class="bg-emerald-500 p-4 rounded-2xl font-black text-xl active:scale-95 transition-all" onclick="copyCode()">העתקת קוד</button>
-        </div>
-    </div>
-
-    <script>
-        // --- Game Logic State ---
-        let state = {
-            bestOf: 3,
-            names: { p1: "עומר", p2: "אליה" },
-            scores: { p1: 0, p2: 0 },
-            lifetime: { 
-                p1: parseInt(localStorage.getItem('lifetime-p1')) || 0, 
-                p2: parseInt(localStorage.getItem('lifetime-p2')) || 0 
-            },
-            categories: ["מי מתקלח אחרון?", "מי רואה TV ראשון?", "מי משחק בסוני ראשון?", "מי יושב ליד החלון?", "סתם משעמם לנו!"],
-            stake: "",
-            mode: "IDLE", // IDLE, REACTION_WAIT, REACTION_GO, WHEEL_SPIN, NUM_COUNT, CHOICE
-            timer: null,
-            startTime: 0,
-            countdown: 10
-        };
-
-        const synth = new Tone.PolySynth().toDestination();
-
-        // --- Core UI Management ---
-        function setBestOf(n) {
-            if (state.scores.p1 > 0 || state.scores.p2 > 0) {
-                if (!confirm("שינוי הסדרה יאפס את הניקוד הנוכחי. להמשיך?")) return;
-            }
-            state.bestOf = n;
-            resetMatch();
-            updateUI();
-        }
-
-        function renderCategories() {
-            const grid = document.getElementById('category-grid');
-            grid.innerHTML = state.categories.map(cat => `
-                <button onclick="selectDispute('${cat}')" class="glass p-5 rounded-[2rem] flex flex-col items-center gap-4 border border-white/5 active:scale-95 transition-all">
-                    <span class="material-symbols-outlined text-4xl text-slate-400">stars</span>
-                    <span class="text-sm font-bold text-slate-200">${cat}</span>
-                </button>
-            `).join('') + `
-                <button onclick="customDispute()" class="glass p-5 rounded-[2rem] flex flex-col items-center gap-4 border border-dashed border-white/20 active:scale-95 transition-all">
-                    <span class="material-symbols-outlined text-4xl text-slate-500">add_circle</span>
-                    <span class="text-sm font-bold text-slate-400">אחר...</span>
-                </button>
-            `;
-        }
-
-        function selectDispute(dispute) {
-            state.stake = dispute;
-            document.getElementById('screen-dispute').classList.add('hidden');
-            document.getElementById('screen-arena').classList.remove('hidden');
-            document.getElementById('stake-display').classList.remove('hidden');
-            document.getElementById('active-dispute-text').innerText = dispute;
-            updateUI();
-        }
-
-        function customDispute() {
-            const dispute = prompt("על מה אתם מחליטים?");
-            if (dispute) selectDispute(dispute);
-        }
-
-        function updateUI() {
-            // Scores
-            document.getElementById('score-p1').innerText = state.scores.p1;
-            document.getElementById('score-p2').innerText = state.scores.p2;
-            document.getElementById('lifetime-p1').innerText = state.lifetime.p1;
-            document.getElementById('lifetime-p2').innerText = state.lifetime.p2;
-            
-            // Names
-            document.querySelectorAll('.player1-name').forEach(el => el.innerText = state.names.p1);
-            document.querySelectorAll('.player2-name').forEach(el => el.innerText = state.names.p2);
-
-            // BestOf Toggle
-            const b3 = document.getElementById('best-of-3');
-            const b5 = document.getElementById('best-of-5');
-            b3.className = state.bestOf === 3 ? "text-xs px-4 py-1.5 rounded-full glass font-bold transition-all border border-yellow-500 text-yellow-500 scale-105 shadow-lg" : "text-xs px-4 py-1.5 rounded-full glass font-bold transition-all border border-white/10 opacity-50";
-            b5.className = state.bestOf === 5 ? "text-xs px-4 py-1.5 rounded-full glass font-bold transition-all border border-yellow-500 text-yellow-500 scale-105 shadow-lg" : "text-xs px-4 py-1.5 rounded-full glass font-bold transition-all border border-white/10 opacity-50";
-
-            updateScoreDots();
-        }
-
-        function updateScoreDots() {
-            const winNeeded = Math.ceil(state.bestOf / 2);
-            document.getElementById('dots-p1').innerHTML = Array(winNeeded).fill(0).map((_, i) => 
-                `<div class="w-3.5 h-3.5 rounded-full ${i < state.scores.p1 ? 'omer-bg shadow-[0_0_10px_#a855f7]' : 'bg-slate-700'}"></div>`).join('');
-            document.getElementById('dots-p2').innerHTML = Array(needed = Math.ceil(state.bestOf / 2), Array(needed).fill(0).map((_, i) => 
-                `<div class="w-3.5 h-3.5 rounded-full ${i < state.scores.p2 ? 'elia-bg shadow-[0_0_10px_#22c55e]' : 'bg-slate-700'}"></div>`)).join('');
-            
-            // Re-map dot 2 manually for safety
-            document.getElementById('dots-p2').innerHTML = Array(winNeeded).fill(0).map((_, i) => 
-                `<div class="w-3.5 h-3.5 rounded-full ${i < state.scores.p2 ? 'elia-bg shadow-[0_0_10px_#22c55e]' : 'bg-slate-700'}"></div>`).join('');
-        }
-
-        // --- MINI GAMES ---
-
-        // Game 1: Reaction
-        function startReaction() {
-            state.mode = 'REACTION_WAIT';
-            const board = document.getElementById('playground-content');
-            document.getElementById('playground').className = "glass rounded-[3rem] min-h-[420px] flex flex-col items-center justify-center p-8 relative overflow-hidden border-4 border-red-500 animate-pulse transition-all duration-300";
-            board.innerHTML = `
-                <span class="material-symbols-outlined text-[10rem] text-red-500">timer</span>
-                <h3 class="text-4xl font-black text-red-500 italic">חכו לירוק...</h3>
-                <p class="text-slate-400 font-bold uppercase tracking-widest">מי שילחץ קודם - יפסיד!</p>
-            `;
-            
-            const delay = 2000 + Math.random() * 3000;
-            state.timer = setTimeout(() => {
-                if (state.mode !== 'REACTION_WAIT') return;
-                state.mode = 'REACTION_GO';
-                state.startTime = performance.now();
-                document.getElementById('playground').className = "glass rounded-[3rem] min-h-[420px] flex flex-col items-center justify-center p-8 relative overflow-hidden border-8 border-emerald-500 bg-emerald-900/20 transition-all duration-300 shadow-[0_0_50px_rgba(16,185,129,0.2)]";
-                board.innerHTML = `
-                    <span class="material-symbols-outlined text-[12rem] text-emerald-400 animate-bounce">bolt</span>
-                    <h3 class="text-8xl font-black text-emerald-400 italic">עכשיו!!!</h3>
-                `;
-                playSound('go');
-            }, delay);
-        }
-
-        // Game 2: Wheel
-        function startWheel() {
-            state.mode = 'WHEEL_SPIN';
-            const board = document.getElementById('playground-content');
-            
-            // Create SVG wheel without names
-            const segments = 12;
-            let slices = '';
-            for(let i=0; i<segments; i++) {
-                const color = i % 2 === 0 ? '#a855f7' : '#22c55e';
-                const angle = 360 / segments;
-                const rotate = i * angle;
-                slices += `<path d="M 100 100 L 100 0 A 100 100 0 0 1 ${100 + 100*Math.sin(angle*Math.PI/180)} ${100 - 100*Math.cos(angle*Math.PI/180)} Z" fill="${color}" stroke="#0f172a" stroke-width="2" transform="rotate(${rotate} 100 100)"/>`;
-            }
-
-            board.innerHTML = `
-                <div class="relative w-80 h-80 drop-shadow-2xl scale-in">
-                    <svg id="wheel-svg" viewBox="0 0 200 200" class="wheel-container w-full h-full">
-                        ${slices}
-                    </svg>
-                    <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-4 w-0 h-0 border-l-[15px] border-l-transparent border-r-[15px] border-r-transparent border-t-[40px] border-t-yellow-400 z-10 drop-shadow-lg"></div>
-                    <div class="absolute inset-0 m-auto w-12 h-12 bg-white rounded-full border-4 border-slate-900 z-20 shadow-inner"></div>
-                </div>
-                <h3 class="text-3xl font-black mt-6 animate-pulse italic">הגלגל מסתובב...</h3>
-            `;
-
-            playSound('spin');
-            const spins = 5 + Math.random() * 5;
-            const extraAngle = Math.random() * 360;
-            const finalRotation = spins * 360 + extraAngle;
-            
-            setTimeout(() => {
-                const wheel = document.getElementById('wheel-svg');
-                wheel.style.transform = `rotate(${finalRotation}deg)`;
-            }, 50);
-
-            setTimeout(() => {
-                const actualAngle = (360 - (finalRotation % 360)) % 360;
-                const winnerP = actualAngle % (360/segments * 2) < (360/segments) ? 1 : 2;
-                showRoundResult(winnerP, 'הגלגל בחר בך!');
-                awardMatchPoint(winnerP);
-            }, 4100);
-        }
-
-        // Game 3: Numbers
-        function startNumbers() {
-            state.mode = 'NUM_COUNT';
-            state.countdown = 10;
-            updateNumberUI();
-
-            state.timer = setInterval(() => {
-                state.countdown--;
-                if(state.countdown <= 0) {
-                    clearInterval(state.timer);
-                    showSecretNumber();
-                } else {
-                    updateNumberUI();
-                }
-            }, 1000);
-        }
-
-        function updateNumberUI() {
-            const board = document.getElementById('playground-content');
-            board.innerHTML = `
-                <div class="space-y-10 animate-in zoom-in duration-300">
-                    <div class="text-[12rem] font-black leading-none timer-glow ${state.countdown <= 3 ? 'text-red-500 animate-ping' : 'text-yellow-400'}">${state.countdown}</div>
-                    <h3 class="text-4xl font-black italic uppercase tracking-widest">תחשבו על מספר!</h3>
-                    <p class="text-slate-400 text-xl font-bold italic underline decoration-yellow-500/50">הכריזו על המספר שלכם עכשיו (1-10)...</p>
-                </div>
-            `;
-            if (state.countdown <= 3) playSound('tick');
-        }
-
-        function showSecretNumber() {
-            state.mode = 'CHOICE';
-            const secret = Math.floor(Math.random() * 10) + 1;
-            const board = document.getElementById('playground-content');
-            board.innerHTML = `
-                <div class="space-y-8 w-full px-4 scale-in">
-                    <div class="text-[10rem] font-black text-yellow-400 bg-white/5 border-4 border-yellow-400 w-44 h-44 flex items-center justify-center rounded-[3rem] mx-auto shadow-2xl">${secret}</div>
-                    <h3 class="text-4xl font-black italic">המספר שלי: ${secret}</h3>
-                    <p class="text-slate-400 text-xl font-medium">מי היה הכי קרוב? תבחרו עכשיו:</p>
-                    <div class="grid grid-cols-2 gap-4">
-                        <button onclick="manualAward(1)" class="omer-bg p-8 rounded-[2rem] text-2xl font-black shadow-xl active:scale-95 transition-all text-white border-b-8 border-purple-800 player1-name"></button>
-                        <button onclick="manualAward(2)" class="elia-bg p-8 rounded-[2rem] text-2xl font-black shadow-xl active:scale-95 transition-all text-white border-b-8 border-green-800 player2-name"></button>
-                    </div>
-                </div>
-            `;
-            playSound('reveal');
-            updateUI(); // refresh name labels on buttons
-        }
-
-        function manualAward(p) {
-            showRoundResult(p, 'היית הכי קרוב למטרה!');
-            awardMatchPoint(p);
-        }
-
-        // --- ROUNDS & MATCH MGMT ---
-        function handlePlayerAction(p) {
-            if (state.mode === 'REACTION_WAIT') {
-                clearTimeout(state.timer);
-                state.mode = 'CHOICE';
-                const winner = p === 1 ? 2 : 1;
-                showRoundResult(winner, `${state.names[`p${p}`]} לחץ מוקדם מדי!`, 'foul');
-                awardMatchPoint(winner);
-            } else if (state.mode === 'REACTION_GO') {
-                state.mode = 'CHOICE';
-                const time = Math.round(performance.now() - state.startTime);
-                showRoundResult(p, `תגובה מהירה בטירוף: ${time}ms`);
-                awardMatchPoint(p);
-            }
-        }
-
-        function awardMatchPoint(p) {
-            const key = `p${p}`;
-            state.scores[key]++;
-            updateUI();
-            
-            const needed = Math.ceil(state.bestOf / 2);
-            if (state.scores[key] >= needed) {
-                state.lifetime[key]++;
-                localStorage.setItem(`lifetime-p${p}`, state.lifetime[key]);
-                setTimeout(() => announceWinner(p), 1500);
-            }
-        }
-
-        function showRoundResult(winnerP, subtext, effect = 'win') {
-            const playground = document.getElementById('playground');
-            const board = document.getElementById('playground-content');
-            const colorClass = winnerP === 1 ? 'omer-color' : 'elia-color';
-            const borderCol = winnerP === 1 ? 'border-purple-500' : 'border-green-500';
-            
-            playSound(effect);
-            
-            playground.className = `glass rounded-[3rem] min-h-[420px] flex flex-col items-center justify-center text-center p-8 relative overflow-hidden shadow-2xl transition-all duration-500 border-8 ${borderCol} ${effect === 'foul' ? 'shake' : 'scale-in'}`;
-            board.innerHTML = `
-                <div class="animate-in zoom-in duration-300">
-                    <span class="material-symbols-outlined text-9xl ${colorClass} mb-4">emoji_events</span>
-                    <h3 class="text-6xl font-black text-white italic tracking-tighter">${state.names[`p${winnerP}`]} ניצח בסיבוב!</h3>
-                    <p class="text-2xl font-bold text-slate-300 mt-4">${subtext}</p>
-                    <div class="mt-8 flex gap-3 justify-center">
-                        <span class="bg-white/10 text-white px-6 py-1 rounded-full text-xs font-black uppercase tracking-widest border border-white/10">החלטה שלך</span>
-                    </div>
-                </div>
-            `;
-        }
-
-        function announceWinner(p) {
-            state.mode = 'IDLE';
-            const winnerName = state.names[`p${p}`];
-            const modal = document.getElementById('modal-victory');
-            const colorClass = p === 1 ? 'omer-color' : 'elia-color';
-            
-            document.getElementById('winner-title').innerText = `${winnerName} המנצח!`;
-            document.getElementById('winner-title').className = `text-7xl font-black mb-6 italic tracking-tighter ${colorClass}`;
-            document.getElementById('winner-subtitle').innerText = `ההחלטה לגבי "${state.stake}" היא שלך!`;
-            
-            modal.classList.remove('hidden');
-            playSound('final');
-        }
-
-        function backToMenu() {
-            document.getElementById('modal-victory').classList.add('hidden');
-            document.getElementById('screen-arena').classList.add('hidden');
-            document.getElementById('stake-display').classList.add('hidden');
-            document.getElementById('screen-dispute').classList.remove('hidden');
-            resetMatch();
-        }
-
-        // --- SYSTEM UTILS ---
-        function toggleLeaderboard() {
-            document.getElementById('modal-leaderboard').classList.toggle('hidden');
-        }
-        function clearLifetime() {
-            if(confirm("לאפס את טבלת הניצחונות?")) {
-                state.lifetime = { p1: 0, p2: 0 };
-                localStorage.setItem('lifetime-p1', 0);
-                localStorage.setItem('lifetime-p2', 0);
-                updateUI();
-            }
-        }
-
-        function toggleSettings() {
-            document.getElementById('modal-settings').classList.toggle('hidden');
-            document.getElementById('input-name-1').value = state.names.p1;
-            document.getElementById('input-name-2').value = state.names.p2;
-        }
-
-        function saveSettings() {
-            state.names.p1 = document.getElementById('input-name-1').value || "עומר";
-            state.names.p2 = document.getElementById('input-name-2').value || "אליה";
-            document.getElementById('modal-settings').classList.add('hidden');
-            updateUI();
-        }
-
-        function addCategory() {
-            const val = document.getElementById('input-new-category').value;
-            if (val) {
-                state.categories.push(val);
-                document.getElementById('input-new-category').value = "";
-                renderCategories();
-            }
-        }
-
-        function resetMatch() {
-            clearInterval(state.timer);
-            state.scores = { p1: 0, p2: 0 };
-            state.mode = 'IDLE';
-            updateUI();
-            
-            const board = document.getElementById('playground-content');
-            document.getElementById('playground').className = "glass rounded-[3rem] min-h-[420px] flex flex-col items-center justify-center text-center p-8 relative overflow-hidden border border-white/10";
-            board.innerHTML = `
-                <span class="material-symbols-outlined text-8xl text-slate-700 animate-bounce">joystick</span>
-                <h3 class="text-3xl font-black text-slate-300">בחרו סוג משחק:</h3>
-            `;
-        }
-
-        function resetApp() {
-            if(confirm("האם לאפס את כל הנתונים כולל טבלת הניצחונות?")) {
-                state.lifetime = { p1: 0, p2: 0 };
-                localStorage.clear();
-                backToMenu();
-                updateUI();
-            }
-        }
-
-        function playSound(type) {
-            if (Tone.context.state !== 'running') Tone.start();
-            if (type === 'go') synth.triggerAttackRelease(["C4", "E4", "G4"], "8n");
-            if (type === 'win') synth.triggerAttackRelease(["C4", "F4", "A4"], "4n");
-            if (type === 'foul') synth.triggerAttackRelease("G2", "4n");
-            if (type === 'spin') synth.triggerAttackRelease("C3", "16n");
-            if (type === 'tick') synth.triggerAttackRelease("B3", "32n");
-            if (type === 'reveal') synth.triggerAttackRelease(["E4", "G4", "C5"], "8n");
-            if (type === 'final') synth.triggerAttackRelease(["C4", "E4", "G4", "B4", "C5"], "1n");
-        }
-
-        function exportHTML() {
-            const code = document.documentElement.outerHTML;
-            document.getElementById('export-code-box').innerText = code;
-            document.getElementById('modal-export').classList.remove('hidden');
-        }
-
-        function closeExport() { document.getElementById('modal-export').classList.add('hidden'); }
-        function copyCode() {
-            const txt = document.getElementById('export-code-box').innerText;
-            navigator.clipboard.writeText(txt).then(() => alert("הקוד הועתק!"));
-        }
-
-        // Init App
-        renderCategories();
-        updateUI();
-    </script>
+<!-- הוספת תג ה-Charset היא הפתרון לבעיית סימני השאלה -->
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<title>מי מחליט? - האפליקציה הרשמית</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700;900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+
+<style>
+body {
+font-family: 'Heebo', sans-serif;
+background-color: #0f172a;
+color: white;
+min-height: 100vh;
+overflow-x: hidden;
+user-select: none;
+touch-action: manipulation;
+}
+
+.glass {
+background: rgba(255, 255, 255, 0.05);
+backdrop-filter: blur(12px);
+border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.omer-color { color: #a855f7; } /* סגול */
+.elia-color { color: #22c55e; } /* ירוק */
+.omer-bg { background-color: #a855f7; }
+.elia-bg { background-color: #22c55e; }
+
+.wheel-container {
+transition: transform 4s cubic-bezier(0.15, 0, 0.15, 1);
+}
+
+.shake {
+animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+@keyframes shake {
+10%, 90% { transform: translate3d(-1px, 0, 0); }
+20%, 80% { transform: translate3d(2px, 0, 0); }
+30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
+40%, 60% { transform: translate3d(4px, 0, 0); }
+}
+
+.winner-pop {
+animation: popIn 0.5s cubic-bezier(0.26, 0.53, 0.74, 1.48) forwards;
+}
+
+@keyframes popIn {
+from { transform: scale(0.5); opacity: 0; }
+to { transform: scale(1); opacity: 1; }
+}
+
+.timer-glow {
+text-shadow: 0 0 20px rgba(234, 179, 8, 0.6);
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+</style>
+
+<!--
+"/gen?prompt=vibrant+abstract+colorful+background+for+kids+game+app+neon+purple+and+green&aspect=9:16"
+"/gen?prompt=3d+golden+trophy+cartoon+style+on+clean+dark+background&aspect=1:1"
+-->
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.relative{position:relative}.inset-0{inset:0px}.-z-10{z-index:-10}.z-50{z-index:50}.z-\[100\]{z-index:100}.z-\[110\]{z-index:110}.mx-auto{margin-left:auto;margin-right:auto}.mb-10{margin-bottom:2.5rem}.mb-12{margin-bottom:3rem}.mb-4{margin-bottom:1rem}.mt-2{margin-top:0.5rem}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-24{height:6rem}.h-64{height:16rem}.h-full{height:100%}.h-3\.5{height:0.875rem}.max-h-full{max-height:100%}.min-h-\[380px\]{min-height:380px}.min-h-\[90vh\]{min-height:90vh}.w-64{width:16rem}.w-full{width:100%}.w-3\.5{width:0.875rem}.max-w-2xl{max-width:42rem}.max-w-md{max-width:28rem}.max-w-sm{max-width:24rem}.flex-grow{flex-grow:1}@keyframes bounce{0%, 100%{transform:translateY(-25%);animation-timing-function:cubic-bezier(0.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0,0.2,1)}}.animate-bounce{animation:bounce 1s infinite}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1\.5{gap:0.375rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.space-y-8 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem * var(--tw-space-y-reverse))}.overflow-auto{overflow:auto}.overflow-hidden{overflow:hidden}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-\[2\.5rem\]{border-radius:2.5rem}.rounded-\[2rem\]{border-radius:2rem}.rounded-\[3rem\]{border-radius:3rem}.rounded-full{border-radius:9999px}.rounded-xl{border-radius:0.75rem}.border{border-width:1px}.border-4{border-width:4px}.border-b-8{border-bottom-width:8px}.border-dashed{border-style:dashed}.border-green-500{--tw-border-opacity:1;border-color:rgb(34 197 94 / var(--tw-border-opacity, 1))}.border-green-500\/20{border-color:rgb(34 197 94 / 0.2)}.border-green-800{--tw-border-opacity:1;border-color:rgb(22 101 52 / var(--tw-border-opacity, 1))}.border-purple-500{--tw-border-opacity:1;border-color:rgb(168 85 247 / var(--tw-border-opacity, 1))}.border-purple-500\/20{border-color:rgb(168 85 247 / 0.2)}.border-purple-800{--tw-border-opacity:1;border-color:rgb(107 33 168 / var(--tw-border-opacity, 1))}.border-white\/10{border-color:rgb(255 255 255 / 0.1)}.border-white\/20{border-color:rgb(255 255 255 / 0.2)}.border-white\/5{border-color:rgb(255 255 255 / 0.05)}.border-yellow-500\/20{border-color:rgb(234 179 8 / 0.2)}.border-yellow-500{--tw-border-opacity:1;border-color:rgb(234 179 8 / var(--tw-border-opacity, 1))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.bg-black\/95{background-color:rgb(0 0 0 / 0.95)}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-emerald-500{--tw-bg-opacity:1;background-color:rgb(16 185 129 / var(--tw-bg-opacity, 1))}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-white\/5{background-color:rgb(255 255 255 / 0.05)}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-purple-400{--tw-gradient-from:#c084fc var(--tw-gradient-from-position);--tw-gradient-to:rgb(192 132 252 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-purple-500{--tw-gradient-from:#a855f7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(168 85 247 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.to-green-400{--tw-gradient-to:#4ade80 var(--tw-gradient-to-position)}.to-green-500{--tw-gradient-to:#22c55e var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.object-cover{object-fit:cover}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-16{padding-left:4rem;padding-right:4rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pt-4{padding-top:1rem}.text-left{text-align:left}.text-center{text-align:center}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-7xl{font-size:4.5rem;line-height:1}.text-8xl{font-size:6rem;line-height:1}.text-\[10px\]{font-size:10px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-medium{font-weight:500}.uppercase{text-transform:uppercase}.italic{font-style:italic}.tracking-tighter{letter-spacing:-0.05em}.tracking-widest{letter-spacing:0.1em}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-blue-400{--tw-text-opacity:1;color:rgb(96 165 250 / var(--tw-text-opacity, 1))}.text-green-400{--tw-text-opacity:1;color:rgb(74 222 128 / var(--tw-text-opacity, 1))}.text-purple-400{--tw-text-opacity:1;color:rgb(192 132 252 / var(--tw-text-opacity, 1))}.text-red-400{--tw-text-opacity:1;color:rgb(248 113 113 / var(--tw-text-opacity, 1))}.text-slate-200{--tw-text-opacity:1;color:rgb(226 232 240 / var(--tw-text-opacity, 1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21 / var(--tw-text-opacity, 1))}.text-yellow-500{--tw-text-opacity:1;color:rgb(234 179 8 / var(--tw-text-opacity, 1))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.decoration-yellow-500\/30{-webkit-text-decoration-color:rgb(234 179 8 / 0.3);text-decoration-color:rgb(234 179 8 / 0.3)}.opacity-20{opacity:0.2}.opacity-50{opacity:0.5}.opacity-60{opacity:0.6}.opacity-100{opacity:1}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.drop-shadow-\[0_0_50px_rgba\(234\2c 179\2c 8\2c 0\.5\)\]{--tw-drop-shadow:drop-shadow(0 0 50px rgba(234,179,8,0.5));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-500{transition-duration:500ms}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-slate-700:hover{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.hover\:bg-white\/10:hover{background-color:rgb(255 255 255 / 0.1)}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.focus\:border-green-500:focus{--tw-border-opacity:1;border-color:rgb(34 197 94 / var(--tw-border-opacity, 1))}.focus\:border-purple-500:focus{--tw-border-opacity:1;border-color:rgb(168 85 247 / var(--tw-border-opacity, 1))}.active\:scale-90:active{--tw-scale-x:.9;--tw-scale-y:.9;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.active\:scale-95:active{--tw-scale-x:.95;--tw-scale-y:.95;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}</style><link type="text/css" href="https://fonts.googleapis.com/css2?family=Google+Symbols:opsz,wght,FILL,GRAD,ROND@24,400,0,0,50&amp;icon_names=link" rel="stylesheet"><style id="dyn-img-link-styles-di-script">
+.dyn-img-link-wrapper-di-script {
+anchor-scope: all;
+display: contents;
+position: relative;
+z-index: 1;
+}
+
+.dyn-img-link-wrapper-di-script img {
+anchor-name: --photo;
+display: block;
+max-width: 100%;
+}
+
+.dyn-img-link-di-script {
+z-index: 999999;
+background-color: rgba(0, 0, 0, 0.5);
+border-radius: 9999px;
+box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+color: white;
+height: clamp(13px, calc(max(anchor-size(width), anchor-size(height)) * 0.3), 21px);
+width: clamp(13px, calc(max(anchor-size(width), anchor-size(height)) * 0.3), 21px);
+padding: 4px;
+position: absolute;
+
+bottom: anchor(bottom);
+left: anchor(left);
+margin-left: 10px;
+margin-bottom: 10px;
+
+transition: background-color 0.2s ease-in-out;
+}
+
+.dyn-img-link-di-script:hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dyn-img-link-di-script span {
+font-size: 14px;
+vertical-align: top;
+}
+
+.dyn-img-attribution-button-di-script {
+z-index: 999999;
+background-color: rgba(0, 0, 0, 0.5);
+border-radius: 9999px;
+box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+color: white;
+width: clamp(13px, calc(max(anchor-size(width), anchor-size(height)) * 0.3), 21px);
+height: clamp(13px, calc(max(anchor-size(width), anchor-size(height)) * 0.3), 21px);
+padding: 4px;
+
+position: absolute;
+position-anchor: --photo;
+top: anchor(top);
+right: anchor(right);
+margin-top: 10px;
+margin-right: 10px;
+
+transition: background-color 0.2s ease-in-out;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.dyn-img-attribution-button-di-script:hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dyn-img-attribution-button-di-script span {
+font-size: 14px;
+vertical-align: top;
+}
+
+.dyn-img-inline-attribution-di-script {
+z-index: 999999;
+font-size: 12px;
+padding: 4px;
+display: none;
+
+position: absolute;
+position-anchor: --photo;
+bottom: anchor(bottom);
+right: anchor(right);
+margin-bottom: 8px;
+margin-right: 8px;
+
+max-width: 200px;
+overflow: hidden;
+text-overflow: ellipsis;
+text-align: right;
+
+white-space: nowrap;
+background-color: rgba(0, 0, 0, 0.8);
+border-radius: 9999px;
+box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+color: white;
+}
+</style></head>
+<body class="p-4 flex flex-col items-center">
+<!-- Background Image -->
+<img alt="background" class="fixed inset-0 w-full h-full object-cover opacity-20 -z-10" src="blob:https://5derewn1ntrxg0zef1gfu7ttlgzz23u49nylvmc4mq3gkjcmkq-h861731785.scf.usercontent.goog/9b25d2b8-8ab2-49a1-aefd-4298dfc35180">
+
+<div class="max-w-md w-full space-y-6 flex flex-col min-h-[90vh]">
+<!-- Top Toolbar -->
+<header class="flex justify-between items-center py-2">
+<button class="glass p-3 rounded-full flex items-center justify-center hover:bg-white/10 active:scale-90 transition-all" onclick="showLeaderboard()">
+<span class="material-symbols-outlined text-yellow-500">leaderboard</span>
+</button>
+<h1 class="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-green-400 italic">מי מחליט?</h1>
+<button class="glass p-3 rounded-full flex items-center justify-center hover:bg-white/10 active:scale-90 transition-all" onclick="showSettings()">
+<span class="material-symbols-outlined text-slate-400">settings</span>
+</button>
+</header>
+
+<!-- Main Content Area -->
+<main class="flex-grow relative flex flex-col gap-4">
+
+<!-- SCREEN 1: DISPUTE CHOICE (MENU) -->
+<div id="view-menu" class="space-y-6 animate-in fade-in duration-500">
+<div class="glass rounded-[2.5rem] p-8 space-y-6 shadow-2xl">
+<h2 class="text-2xl font-black text-center text-slate-200 underline decoration-yellow-500/30">על מה רבים הפעם?</h2>
+<div id="dispute-grid" class="grid grid-cols-2 gap-4">
+<button onclick="startMatch('מי מתקלח אחרון?')" class="glass p-5 rounded-[2rem] flex flex-col items-center gap-4 border border-white/5 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-4xl text-slate-400">stars</span>
+<span class="text-sm font-bold text-slate-200">מי מתקלח אחרון?</span>
+</button>
+
+<button onclick="startMatch('מי רואה TV ראשון?')" class="glass p-5 rounded-[2rem] flex flex-col items-center gap-4 border border-white/5 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-4xl text-slate-400">stars</span>
+<span class="text-sm font-bold text-slate-200">מי רואה TV ראשון?</span>
+</button>
+
+<button onclick="startMatch('מי משחק בסוני ראשון?')" class="glass p-5 rounded-[2rem] flex flex-col items-center gap-4 border border-white/5 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-4xl text-slate-400">stars</span>
+<span class="text-sm font-bold text-slate-200">מי משחק בסוני ראשון?</span>
+</button>
+
+<button onclick="startMatch('מי יושב ליד החלון?')" class="glass p-5 rounded-[2rem] flex flex-col items-center gap-4 border border-white/5 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-4xl text-slate-400">stars</span>
+<span class="text-sm font-bold text-slate-200">מי יושב ליד החלון?</span>
+</button>
+
+<button onclick="startMatch('סתם משעמם לנו!')" class="glass p-5 rounded-[2rem] flex flex-col items-center gap-4 border border-white/5 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-4xl text-slate-400">stars</span>
+<span class="text-sm font-bold text-slate-200">סתם משעמם לנו!</span>
+</button>
+
+<button onclick="customDispute()" class="glass p-5 rounded-[2rem] flex flex-col items-center gap-4 border border-dashed border-white/20 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-4xl text-slate-500">add_circle</span>
+<span class="text-sm font-bold text-slate-400">אחר...</span>
+</button>
+</div>
+</div>
+</div>
+
+<!-- SCREEN 2: GAME ARENA -->
+<div id="view-arena" class="hidden space-y-6 animate-in slide-in-from-bottom duration-500">
+<!-- Score Cards -->
+<div class="grid grid-cols-2 gap-4">
+<div class="glass rounded-3xl p-4 text-center border-b-8 border-purple-500 shadow-xl" id="card-p1">
+<p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest p1-name-label">עומר</p>
+<p class="text-4xl font-black omer-color" id="score-p1-match">0</p>
+<div class="flex justify-center gap-1.5 mt-2" id="dots-p1"><div class="w-3.5 h-3.5 rounded-full bg-slate-700"></div><div class="w-3.5 h-3.5 rounded-full bg-slate-700"></div></div>
+</div>
+<div class="glass rounded-3xl p-4 text-center border-b-8 border-green-500 shadow-xl" id="card-p2">
+<p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest p2-name-label">אליה</p>
+<p class="text-4xl font-black elia-color" id="score-p2-match">0</p>
+<div class="flex justify-center gap-1.5 mt-2" id="dots-p2"><div class="w-3.5 h-3.5 rounded-full bg-slate-700"></div><div class="w-3.5 h-3.5 rounded-full bg-slate-700"></div></div>
+</div>
+</div>
+
+<!-- Match Info -->
+<div class="flex justify-center items-center gap-4">
+<div class="px-4 py-1 glass rounded-full text-xs font-bold text-yellow-400 border border-yellow-500/20 shadow-lg">
+<span id="active-dispute-label"></span>
+</div>
+<div class="flex gap-2">
+<button id="btn-best3" class="text-[10px] px-3 py-1 rounded-full glass border border-white/20 font-black transition-all opacity-100 border-yellow-500" onclick="setMatchMode(3)">3</button>
+<button id="btn-best5" class="text-[10px] px-3 py-1 rounded-full glass border border-white/20 font-black transition-all opacity-50" onclick="setMatchMode(5)">5</button>
+</div>
+</div>
+
+<!-- Main Game Board -->
+<div id="game-board" class="glass rounded-[3rem] min-h-[380px] p-6 flex flex-col items-center justify-center text-center relative overflow-hidden shadow-2xl transition-all duration-500 border border-white/10">
+<div id="board-content" class="w-full h-full flex flex-col items-center justify-center space-y-6">
+<span class="material-symbols-outlined text-8xl text-slate-700 animate-bounce">rocket_launch</span>
+<h3 class="text-2xl font-black text-slate-400">מוכנים? בחרו משחק למטה!</h3>
+</div>
+</div>
+
+<!-- Small Mini-Games Selection -->
+<div id="games-nav" class="grid grid-cols-3 gap-3">
+<button class="glass p-4 rounded-2xl flex flex-col items-center gap-2 hover:bg-white/10 active:scale-95 transition-all" onclick="initReaction()">
+<span class="material-symbols-outlined text-yellow-400">bolt</span>
+<span class="text-[10px] font-bold uppercase">תגובה</span>
+</button>
+<button class="glass p-4 rounded-2xl flex flex-col items-center gap-2 hover:bg-white/10 active:scale-95 transition-all" onclick="initWheel()">
+<span class="material-symbols-outlined text-purple-400">progress_activity</span>
+<span class="text-[10px] font-bold uppercase">גלגל</span>
+</button>
+<button class="glass p-4 rounded-2xl flex flex-col items-center gap-2 hover:bg-white/10 active:scale-95 transition-all" onclick="initNumber()">
+<span class="material-symbols-outlined text-blue-400">pin</span>
+<span class="text-[10px] font-bold uppercase">מספר</span>
+</button>
+</div>
+
+<!-- Big Action Buttons -->
+<div class="grid grid-cols-2 gap-4">
+<button id="action-p1" class="omer-bg h-24 rounded-[2rem] text-3xl font-black shadow-xl active:scale-90 transition-all text-white border-b-8 border-purple-800 p1-name-label" onmousedown="playerPress(1)" ontouchstart="playerPress(1)">עומר</button>
+<button id="action-p2" class="elia-bg h-24 rounded-[2rem] text-3xl font-black shadow-xl active:scale-90 transition-all text-white border-b-8 border-green-800 p2-name-label" onmousedown="playerPress(2)" ontouchstart="playerPress(2)">אליה</button>
+</div>
+</div>
+</main>
+
+<!-- Footer -->
+<footer class="flex justify-between items-center py-6 opacity-60">
+<button class="flex items-center gap-2 text-slate-500 hover:text-white transition-all text-[10px] font-bold uppercase" onclick="resetEverything()">
+<span class="material-symbols-outlined text-sm">refresh</span> איפוס הכל
+</button>
+<button class="bg-slate-800 px-6 py-2 rounded-full text-[10px] font-black uppercase tracking-widest hover:bg-slate-700 border border-white/5 shadow-lg flex items-center gap-2" onclick="exportApp()">
+<span class="material-symbols-outlined text-sm">code</span> ייצוא קוד
+</button>
+</footer>
+</div>
+
+<!-- OVERLAYS & MODALS -->
+
+<!-- Victory Popup -->
+<div id="modal-victory" class="hidden fixed inset-0 z-[100] bg-slate-950/98 p-8 flex flex-col items-center justify-center text-center">
+<div class="winner-pop flex flex-col items-center">
+<img alt="trophy" class="w-64 h-64 mb-10 drop-shadow-[0_0_50px_rgba(234,179,8,0.5)]" src="blob:https://5derewn1ntrxg0zef1gfu7ttlgzz23u49nylvmc4mq3gkjcmkq-h861731785.scf.usercontent.goog/648ae06e-b26c-4e83-81cd-f8ce52f2a9fd">
+<h2 id="match-winner-name" class="text-7xl font-black mb-4 italic tracking-tighter"></h2>
+<p id="match-winner-task" class="text-3xl text-slate-300 font-medium mb-12 italic"></p>
+<button class="bg-gradient-to-r from-purple-500 to-green-500 px-16 py-8 rounded-[3rem] text-4xl font-black shadow-2xl hover:scale-105 active:scale-95 transition-all border-4 border-white/20" onclick="backToMenu()">חזרה לתפריט</button>
+</div>
+</div>
+
+<!-- Leaderboard -->
+<div id="modal-leaderboard" class="hidden fixed inset-0 z-50 bg-black/95 flex items-center justify-center p-6">
+<div class="glass w-full max-w-sm rounded-[3rem] p-8 space-y-8 text-center">
+<h3 class="text-3xl font-black flex items-center justify-center gap-3">
+<span class="material-symbols-outlined text-yellow-500 text-4xl">leaderboard</span> ניצחונות סופיים
+</h3>
+<div class="space-y-4">
+<div class="flex justify-between items-center p-5 glass rounded-2xl border border-purple-500/20">
+<span class="text-xl font-bold omer-color p1-name-label">עומר</span>
+<span id="lb-p1" class="text-5xl font-black">0</span>
+</div>
+<div class="flex justify-between items-center p-5 glass rounded-2xl border border-green-500/20">
+<span class="text-xl font-bold elia-color p2-name-label">אליה</span>
+<span id="lb-p2" class="text-5xl font-black">0</span>
+</div>
+</div>
+<div class="flex gap-2">
+<button class="flex-grow bg-slate-800 p-4 rounded-2xl font-bold text-lg" onclick="hideLeaderboard()">סגירה</button>
+<button class="px-5 glass rounded-2xl text-red-400" onclick="resetLifetime()"><span class="material-symbols-outlined">delete</span></button>
+</div>
+</div>
+</div>
+
+<!-- Settings -->
+<div id="modal-settings" class="hidden fixed inset-0 z-50 bg-black/95 flex items-center justify-center p-6">
+<div class="glass w-full max-w-sm rounded-[3rem] p-8 space-y-6">
+<h3 class="text-2xl font-black text-center">הגדרות</h3>
+<div class="space-y-4">
+<div class="space-y-1">
+<label class="text-[10px] font-bold text-purple-400 uppercase">שם הבן (סגול)</label>
+<input id="input-p1" class="w-full glass bg-white/5 p-4 rounded-2xl border border-white/10 outline-none focus:border-purple-500 transition-all" type="text">
+</div>
+<div class="space-y-1">
+<label class="text-[10px] font-bold text-green-400 uppercase">שם הבת (ירוק)</label>
+<input id="input-p2" class="w-full glass bg-white/5 p-4 rounded-2xl border border-white/10 outline-none focus:border-green-500 transition-all" type="text">
+</div>
+<div class="pt-4 space-y-2">
+<label class="text-[10px] font-bold text-slate-400 uppercase">הוספת קטגוריית מריבה</label>
+<div class="flex gap-2">
+<input id="input-new-cat" class="flex-grow glass bg-white/5 p-4 rounded-2xl border border-white/10 outline-none" placeholder="הקלידו כאן..." type="text">
+<button class="bg-blue-600 px-6 rounded-2xl font-black" onclick="addCustomCat()">הוסף</button>
+</div>
+</div>
+</div>
+<button class="w-full bg-emerald-500 p-5 rounded-2xl font-black text-xl shadow-lg active:scale-95" onclick="saveSettings()">שמירה</button>
+</div>
+</div>
+
+<!-- Export -->
+<div id="modal-export" class="hidden fixed inset-0 z-[110] bg-black p-4 flex flex-col">
+<div class="glass w-full max-w-2xl rounded-3xl p-6 flex flex-col gap-4 max-h-full mx-auto">
+<div class="flex justify-between items-center">
+<h3 class="text-xl font-bold">ייצוא קוד המקור</h3>
+<button class="material-symbols-outlined text-slate-400" onclick="closeExport()">close</button>
+</div>
+<div id="code-box" class="flex-grow w-full bg-slate-900 text-blue-300 p-4 rounded-xl font-mono text-[10px] overflow-auto border border-white/10 text-left" dir="ltr"></div>
+<button class="bg-emerald-500 p-5 rounded-2xl font-black text-xl active:scale-95 transition-all" onclick="copyCode()">העתקת קוד</button>
+</div>
+</div>
+
+<script>
+// --- State Management ---
+const state = {
+bestOf: 3,
+names: { p1: "עומר", p2: "אליה" },
+scores: { p1: 0, p2: 0 },
+lifetime: {
+p1: parseInt(localStorage.getItem('match-win-p1')) || 0,
+p2: parseInt(localStorage.getItem('match-win-p2')) || 0
+},
+categories: ["מי מתקלח אחרון?", "מי רואה TV ראשון?", "מי משחק בסוני ראשון?", "מי יושב ליד החלון?", "סתם משעמם לנו!"],
+activeDispute: "",
+mode: "MENU", // MENU, ARENA
+gamePhase: "IDLE", // IDLE, REACTION_WAIT, REACTION_GO, WHEEL, NUMBER_COUNT, RESOLVE
+timer: null,
+startTime: 0,
+countdown: 10
+};
+
+const synth = new Tone.PolySynth().toDestination();
+
+// --- Core UI Logic ---
+function renderCategories() {
+const grid = document.getElementById('dispute-grid');
+grid.innerHTML = state.categories.map(cat => `
+<button onclick="startMatch('${cat}')" class="glass p-5 rounded-[2rem] flex flex-col items-center gap-4 border border-white/5 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-4xl text-slate-400">stars</span>
+<span class="text-sm font-bold text-slate-200">${cat}</span>
+</button>
+`).join('') + `
+<button onclick="customDispute()" class="glass p-5 rounded-[2rem] flex flex-col items-center gap-4 border border-dashed border-white/20 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-4xl text-slate-500">add_circle</span>
+<span class="text-sm font-bold text-slate-400">אחר...</span>
+</button>
+`;
+}
+
+function startMatch(task) {
+state.activeDispute = task;
+state.scores = { p1: 0, p2: 0 };
+document.getElementById('view-menu').classList.add('hidden');
+document.getElementById('view-arena').classList.remove('hidden');
+document.getElementById('active-dispute-label').innerText = task;
+updateUI();
+}
+
+function customDispute() {
+const dispute = prompt("על מה אתם מחליטים?");
+if (dispute) startMatch(dispute);
+}
+
+function setMatchMode(n) {
+if (state.scores.p1 > 0 || state.scores.p2 > 0) {
+if(!confirm("שינוי הסדרה יאפס את הניקוד הנוכחי. להמשיך?")) return;
+}
+state.bestOf = n;
+resetArena();
+updateUI();
+}
+
+function updateUI() {
+document.querySelectorAll('.p1-name-label').forEach(el => el.innerText = state.names.p1);
+document.querySelectorAll('.p2-name-label').forEach(el => el.innerText = state.names.p2);
+document.getElementById('score-p1-match').innerText = state.scores.p1;
+document.getElementById('score-p2-match').innerText = state.scores.p2;
+document.getElementById('lb-p1').innerText = state.lifetime.p1;
+document.getElementById('lb-p2').innerText = state.lifetime.p2;
+
+// Best of buttons
+document.getElementById('btn-best3').classList.toggle('opacity-100', state.bestOf === 3);
+document.getElementById('btn-best3').classList.toggle('border-yellow-500', state.bestOf === 3);
+document.getElementById('btn-best5').classList.toggle('opacity-100', state.bestOf === 5);
+document.getElementById('btn-best5').classList.toggle('border-yellow-500', state.bestOf === 5);
+
+updateDots();
+}
+
+function updateDots() {
+const winNeeded = Math.ceil(state.bestOf / 2);
+document.getElementById('dots-p1').innerHTML = Array(winNeeded).fill(0).map((_, i) =>
+`<div class="w-3.5 h-3.5 rounded-full ${i < state.scores.p1 ? 'omer-bg shadow-[0_0_10px_#a855f7]' : 'bg-slate-700'}"></div>`).join('');
+document.getElementById('dots-p2').innerHTML = Array(winNeeded).fill(0).map((_, i) =>
+`<div class="w-3.5 h-3.5 rounded-full ${i < state.scores.p2 ? 'elia-bg shadow-[0_0_10px_#22c55e]' : 'bg-slate-700'}"></div>`).join('');
+}
+
+// --- MINI GAMES ---
+
+// Reaction Game
+function initReaction() {
+state.gamePhase = 'REACTION_WAIT';
+const board = document.getElementById('board-content');
+document.getElementById('game-board').className = "glass rounded-[3rem] min-h-[380px] p-6 flex flex-col items-center justify-center text-center relative overflow-hidden border-4 border-red-500 animate-pulse transition-all";
+board.innerHTML = `
+<span class="material-symbols-outlined text-[10rem] text-red-500">timer</span>
+<h3 class="text-4xl font-black text-red-500 italic">חכו לירוק...</h3>
+<p class="text-slate-400 font-bold uppercase">לחיצה מוקדמת = הפסד!</p>
+`;
+
+const delay = 2000 + Math.random() * 3000;
+state.timer = setTimeout(() => {
+if (state.gamePhase !== 'REACTION_WAIT') return;
+state.gamePhase = 'REACTION_GO';
+state.startTime = performance.now();
+document.getElementById('game-board').className = "glass rounded-[3rem] min-h-[380px] p-6 flex flex-col items-center justify-center text-center relative overflow-hidden border-8 border-emerald-500 bg-emerald-900/20 shadow-[0_0_50px_rgba(16,185,129,0.2)]";
+board.innerHTML = `
+<span class="material-symbols-outlined text-[12rem] text-emerald-400 animate-bounce">bolt</span>
+<h3 class="text-8xl font-black text-emerald-400 italic">עכשיו!!!</h3>
+`;
+playTone('go');
+}, delay);
+}
+
+// Wheel Game
+function initWheel() {
+state.gamePhase = 'WHEEL_SPIN';
+const board = document.getElementById('board-content');
+
+const segments = 12;
+let slices = '';
+for(let i=0; i<segments; i++) {
+const col = i % 2 === 0 ? '#a855f7' : '#22c55e';
+const ang = 360 / segments;
+const rot = i * ang;
+slices += `<path d="M 100 100 L 100 0 A 100 100 0 0 1 ${100 + 100*Math.sin(ang*Math.PI/180)} ${100 - 100*Math.cos(ang*Math.PI/180)} Z" fill="${col}" stroke="#0f172a" stroke-width="2" transform="rotate(${rot} 100 100)"/>`;
+}
+
+board.innerHTML = `
+<div class="relative w-80 h-80 drop-shadow-2xl winner-pop">
+<svg id="wheel-svg" viewBox="0 0 200 200" class="wheel-container w-full h-full">
+${slices}
+</svg>
+<div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-4 w-0 h-0 border-l-[15px] border-l-transparent border-r-[15px] border-r-transparent border-t-[40px] border-t-yellow-400 z-10 drop-shadow-lg"></div>
+<div class="absolute inset-0 m-auto w-12 h-12 bg-white rounded-full border-4 border-slate-900 z-20 shadow-inner"></div>
+</div>
+<h3 class="text-3xl font-black mt-6 animate-pulse italic uppercase">הגלגל מסתובב...</h3>
+`;
+
+playTone('spin');
+const spins = 5 + Math.random() * 5;
+const extra = Math.random() * 360;
+const totalRot = spins * 360 + extra;
+
+setTimeout(() => {
+const wheel = document.getElementById('wheel-svg');
+if (wheel) wheel.style.transform = `rotate(${totalRot}deg)`;
+}, 50);
+
+setTimeout(() => {
+const actualAngle = (360 - (totalRot % 360)) % 360;
+const winIdx = Math.floor(actualAngle / (360/segments));
+const winP = winIdx % 2 === 0 ? 1 : 2;
+showRoundResult(winP, 'הגלגל קבע!');
+awardPoint(winP);
+}, 4100);
+}
+
+// Numbers Game
+function initNumber() {
+state.gamePhase = 'NUMBER_COUNT';
+state.countdown = 10;
+updateNumUI();
+
+state.timer = setInterval(() => {
+state.countdown--;
+if(state.countdown <= 0) {
+clearInterval(state.timer);
+revealSecretNumber();
+} else {
+updateNumUI();
+if (state.countdown <= 3) playTone('tick');
+}
+}, 1000);
+}
+
+function updateNumUI() {
+const board = document.getElementById('board-content');
+board.innerHTML = `
+<div class="space-y-10 winner-pop">
+<div class="text-[12rem] font-black leading-none timer-glow ${state.countdown <= 3 ? 'text-red-500 animate-ping' : 'text-yellow-400'}">${state.countdown}</div>
+<h3 class="text-4xl font-black italic uppercase tracking-widest">תחשבו על מספר!</h3>
+<p class="text-slate-400 text-xl font-bold italic underline decoration-yellow-500/50">הכריזו על מספר (1-10) עכשיו...</p>
+</div>
+`;
+}
+
+function revealSecretNumber() {
+state.gamePhase = 'RESOLVE';
+const secret = Math.floor(Math.random() * 10) + 1;
+const board = document.getElementById('board-content');
+board.innerHTML = `
+<div class="space-y-8 w-full px-4 winner-pop">
+<div class="text-[10rem] font-black text-yellow-400 bg-white/5 border-4 border-yellow-400 w-44 h-44 flex items-center justify-center rounded-[3rem] mx-auto shadow-2xl">${secret}</div>
+<h3 class="text-4xl font-black italic underline decoration-yellow-500/30">המספר הסודי: ${secret}</h3>
+<p class="text-slate-400 text-xl font-medium">מי היה הכי קרוב? תבחרו עכשיו:</p>
+<div class="grid grid-cols-2 gap-4 pt-4">
+<button onclick="manualAward(1)" class="omer-bg p-8 rounded-[2rem] text-3xl font-black shadow-xl active:scale-95 transition-all text-white border-b-8 border-purple-800 p1-name-label"></button>
+<button onclick="manualAward(2)" class="elia-bg p-8 rounded-[2rem] text-3xl font-black shadow-xl active:scale-95 transition-all text-white border-b-8 border-green-800 p2-name-label"></button>
+</div>
+</div>
+`;
+playTone('reveal');
+updateUI(); // refresh name labels
+}
+
+function manualAward(p) {
+showRoundResult(p, 'היית הכי קרוב למטרה!');
+awardPoint(p);
+}
+
+// --- ROUND ACTIONS ---
+
+function playerPress(p) {
+if (state.gamePhase === 'REACTION_WAIT') {
+clearTimeout(state.timer);
+state.gamePhase = 'IDLE';
+const winner = p === 1 ? 2 : 1;
+showRoundResult(winner, `${state.names[`p${p}`]} לחץ מוקדם מדי!`, 'foul');
+awardPoint(winner);
+} else if (state.gamePhase === 'REACTION_GO') {
+state.gamePhase = 'IDLE';
+const ms = Math.round(performance.now() - state.startTime);
+showRoundResult(p, `תגובה מהירה: ${ms}ms`);
+awardPoint(p);
+}
+}
+
+function awardPoint(p) {
+const key = `p${p}`;
+state.scores[key]++;
+updateUI();
+
+const winNeeded = Math.ceil(state.bestOf / 2);
+if (state.scores[key] >= winNeeded) {
+state.lifetime[key]++;
+localStorage.setItem(`match-win-p${p}`, state.lifetime[key]);
+setTimeout(() => announceMatchWinner(p), 1500);
+}
+}
+
+function showRoundResult(p, subtext, effect = 'win') {
+const playground = document.getElementById('game-board');
+const board = document.getElementById('board-content');
+const colorClass = p === 1 ? 'omer-color' : 'elia-color';
+const borderCol = p === 1 ? 'border-purple-500' : 'border-green-500';
+
+playTone(effect);
+
+playground.className = `glass rounded-[3rem] min-h-[380px] p-6 flex flex-col items-center justify-center text-center relative overflow-hidden shadow-2xl transition-all duration-500 border-8 ${borderCol} ${effect === 'foul' ? 'shake' : 'winner-pop'}`;
+board.innerHTML = `
+<div class="winner-pop space-y-4">
+<span class="material-symbols-outlined text-[10rem] ${colorClass} mb-4">emoji_events</span>
+<h3 class="text-6xl font-black text-white italic tracking-tighter">${state.names[`p${p}`]} ניצח בסיבוב!</h3>
+<p class="text-2xl font-bold text-slate-300 mt-4">${subtext}</p>
+<div class="mt-8 bg-white/10 inline-block px-8 py-2 rounded-full font-black uppercase tracking-widest text-xs border border-white/10">החלטה שלך</div>
+</div>
+`;
+}
+
+function announceMatchWinner(p) {
+state.gamePhase = 'IDLE';
+const winName = state.names[`p${p}`];
+const modal = document.getElementById('modal-victory');
+const colClass = p === 1 ? 'omer-color' : 'elia-color';
+
+document.getElementById('match-winner-name').innerText = `${winName} המנצח!`;
+document.getElementById('match-winner-name').className = `text-7xl font-black mb-6 italic tracking-tighter ${colClass}`;
+document.getElementById('match-winner-task').innerText = `ההחלטה לגבי "${state.activeDispute}" היא שלך!`;
+
+modal.classList.remove('hidden');
+playTone('final');
+}
+
+function backToMenu() {
+document.getElementById('modal-victory').classList.add('hidden');
+document.getElementById('view-arena').classList.add('hidden');
+document.getElementById('view-menu').classList.remove('hidden');
+resetArena();
+}
+
+// --- SYSTEM UTILS ---
+
+function toggleLeaderboard() { document.getElementById('modal-leaderboard').classList.toggle('hidden'); }
+function hideLeaderboard() { document.getElementById('modal-leaderboard').classList.add('hidden'); }
+function resetLifetime() {
+if(confirm("לאפס את טבלת הניצחונות הכללית?")) {
+state.lifetime = {p1:0, p2:0};
+localStorage.clear();
+updateUI();
+}
+}
+
+function showSettings() {
+document.getElementById('modal-settings').classList.remove('hidden');
+document.getElementById('input-p1').value = state.names.p1;
+document.getElementById('input-p2').value = state.names.p2;
+}
+
+function saveSettings() {
+state.names.p1 = document.getElementById('input-p1').value || "עומר";
+state.names.p2 = document.getElementById('input-p2').value || "אליה";
+document.getElementById('modal-settings').classList.add('hidden');
+updateUI();
+}
+
+function addCustomCat() {
+const val = document.getElementById('input-new-cat').value;
+if (val) {
+state.categories.push(val);
+document.getElementById('input-new-cat').value = "";
+renderCategories();
+}
+}
+
+function resetArena() {
+clearInterval(state.timer);
+state.scores = { p1: 0, p2: 0 };
+state.gamePhase = 'IDLE';
+updateUI();
+
+const board = document.getElementById('board-content');
+document.getElementById('game-board').className = "glass rounded-[3rem] min-h-[380px] p-6 flex flex-col items-center justify-center text-center relative overflow-hidden border border-white/10 transition-all";
+board.innerHTML = `
+<span class="material-symbols-outlined text-8xl text-slate-700 animate-bounce">joystick</span>
+<h3 class="text-2xl font-black text-slate-300">בחרו סוג משחק:</h3>
+`;
+}
+
+function resetEverything() {
+if(confirm("האם לאפס הכל כולל שמות וניצחונות?")) {
+localStorage.clear();
+location.reload();
+}
+}
+
+function playTone(type) {
+if (Tone.context.state !== 'running') Tone.start();
+if (type === 'go') synth.triggerAttackRelease(["C4", "E4", "G4"], "8n");
+if (type === 'win') synth.triggerAttackRelease(["C4", "F4", "A4"], "4n");
+if (type === 'foul') synth.triggerAttackRelease("G2", "4n");
+if (type === 'spin') synth.triggerAttackRelease("C3", "16n");
+if (type === 'tick') synth.triggerAttackRelease("B3", "32n");
+if (type === 'reveal') synth.triggerAttackRelease(["E4", "G4", "C5"], "8n");
+if (type === 'final') synth.triggerAttackRelease(["C4", "E4", "G4", "B4", "C5"], "1n");
+}
+
+function exportApp() {
+const html = document.documentElement.outerHTML;
+document.getElementById('code-box').innerText = html;
+document.getElementById('modal-export').classList.remove('hidden');
+}
+
+function closeExport() { document.getElementById('modal-export').classList.add('hidden'); }
+function copyCode() {
+const text = document.getElementById('code-box').innerText;
+navigator.clipboard.writeText(text).then(() => alert("הקוד הועתק!"));
+}
+
+// Init App
+renderCategories();
+updateUI();
+</script>
 
 
 </body></html>
